@@ -1,0 +1,1503 @@
+{
+    "notices": [{
+        "title": "Problem Note 68098: SAS® Environment Manager contains a Velocity library that contains known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS Environment Manager contains the velocity-1.6.3 library, which is vulnerable to the issue described by CVE-2020-13936.",
+        "impact": "Potential Impact: An attacker might be able to execute malicious code on the system. See the CVE link above for details."
+    }, {
+        "title": "Problem Note 68067: Platform Web Services for SAS® contains a PostgreSQL library with known vulnerabilities (CVE-2020-13692)",
+        "severity": "Severity: High",
+        "description": "Description: Platform Web Services for SAS contains a PostgreSQL JDBC driver library that is vulnerable to the issue that is described by CVE-2020-13692.",
+        "impact": "Potential Impact: The library is vulnerable to XML External Entity (XXE) attacks. See the CVE record for further details."
+    }, {
+        "title": "Problem Note 68055: SAS® Stored Process authors might be able to bypass restrictions that are set with the LOCKDOWN system option",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Stored Process authors might be able to bypass restrictions on directory objects that are set with the LOCKDOWN system option.",
+        "impact": "Potential Impact: A user might gain unauthorized access to files or data."
+    }, {
+        "title": "Problem Note 68008: SAS® Web Report Studio contains a cross-site scripting vulnerability that is related to the software's information-map input fields",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Web Report Studio contains a cross-site scripting vulnerability that is related to the software's information-map input fields.",
+        "impact": "Potential Impact: A user might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 67949: SAS® Life Science Analytics Framework 5.3 - Security vulnerability identified in jQuery version included in application HTML Commons component",
+        "severity": "Severity: Medium",
+        "description": "Description: Security vulnerabilities were identified in the version of jQuery that is currently included in a version of HTML Commons that is part of SAS Life Science Analytics Framework 5.3. HTML Commons is providing a hot fix for all versions of HTML Commons that are currently in the field or pending release.",
+        "impact": "For existing SAS Life Science Analytics Framework 5.3 customers, a fix (contained in 5.3.1) is required in order to accommodate the HTML Commons fix. "
+    }, {
+        "title": "Problem Note 67944: SAS® Studio contains a jQuery library with a known vulnerability, CVE-2019-11358",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Studio contains a jQuery 3.31 library with a known vulnerability, CVE-2019-11358.",
+        "impact": "Potential Impact: This library might be vulnerable to prototype pollution attacks."
+    }, {
+        "title": "Problem Note 67891: SAS® Environment Manager contains an XStream library that is affected by known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS Environment Manager contains XStream version 1.4.11, which is affected by the following known vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 67892: SAS® Studio contains a session hijacking vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: SAS Studio is affected by a session hijacking vulnerability that might allow a user to run code under another user's active compute session.",
+        "impact": "Potential Impact: A user might be able to gain unauthorized access to data or otherwise bypass authorization constraints."
+    }, {
+        "title": "Problem Note 67888: The SAS® Viya® Launcher service contains an arbitrary code execution vulnerability",
+        "severity": "Severity: Critical",
+        "description": "Description: The SAS Viya Launcher service contains an arbitrary command execution vulnerability.",
+        "impact": "Potential Impact: A user might be able to execute arbitrary command line actions, even when the system LOCKDOWN option is configured."
+    }, {
+        "title": "Problem Note 67872: SAS® Model Studio contains a version of CKEditor with known vulnerabilities",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Model Studio in SAS® Viya® 3.5 contains a vulnerable version of the third-party JavaScript library CKEditor (4.11.2).",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 67862: SAS® Graph Builder contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Graph Builder contains a cross-site scripting vulnerability in its Shared Role input field.",
+        "impact": "Potential Impact: Users might execute malicious JavaScript unknowingly."
+    }, {
+        "title": "Problem Note 67848: The SAS® Environment Manager server contains a version of Apache Tomcat that is affected by known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: The SAS Environment Manager server contains Apache Tomcat 9.0.31, which is affected by the following vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 67850: SAS® Environment Manager accepts GET requests in circumstances where the POST method should be used",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Environment Manager accepts GET requests with data in the URL when the POST method should be used.",
+        "impact": "Potential Impact: This issue allows for the potential to disclose sensitive information to unauthorized parties."
+    }, {
+        "title": "Problem Note 67851: SAS® Environment Manager fails to disable the autocomplete function for certain password input fields",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Environment Manager fails to disable the autocomplete function for certain password input fields.",
+        "impact": "Potential Impact: Sensitive information such as passwords can be disclosed to unauthorized parties."
+    }, {
+        "title": "Problem Note 67844: SAS® Environment Manager contains a PostgreSQL library that is affected by a known vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: SAS Environment Manager contains the PostgreSQL JDBC driver 42.2.12 library, which is vulnerable to the issue that is described in CVE-2020-13692.",
+        "impact": "Potential Impact: The library might allow arbitrary XML External Entity (XXE) processing."
+    }, {
+        "title": "Problem Note 67808: SAS® Life Science Analytics Framework 5.1.x/5.2.x - Security vulnerability identified in jQuery version included in application HTML Commons component",
+        "severity": "Severity: Medium",
+        "description": "Description: Security vulnerabilities were identified in the version of jQuery that is currently included in a version of HTML Commons that is part of SAS Life Science Analytics Framework 5.1.x and 5.2.x. HTML Commons is providing a hot fix for all versions of HTML Commons that are currently in the field or pending release.",
+        "impact": "For existing SAS Life Science Analytics Framework 5.2.x customers, a fix (5.2.3) is required in order to accommodate the HTML Commons fix. Existing SAS Life Science Analytics Framework 5.1.x customers must make arrangements to upgrade their instances to either 5.2.3 or 5.3.1 in order to pick up the fix. "
+    }, {
+        "title": "Problem Note 67767: CAS contains a broken access-control vulnerability for table views",
+        "severity": "Severity: High",
+        "description": "Description: Access controls from SAS® Cloud Analytic Services (CAS) are bypassed on table views.",
+        "impact": "Potential Impact: This vulnerability potentially enables unauthorized users to access data."
+    }, {
+        "title": "Problem Note 67754: The option setting for the options used to connect to Google BigQuery with OAuth authentication might be displayed in clear text in logs",
+        "severity": "Severity: Critical",
+        "description": "Description: The ability to use OAuth authentication to connect to Google BigQuery is done through the use of the REFRESH_TOKEN=, CLIENT_ID= and CLIENT_SECRET= LIBNAME and CASLIB options. The settings for these options might be displayed in the SAS® log.",
+        "impact": "Potential Impact: A user's logon credentials might be exposed in clear text."
+    }, {
+        "title": "Problem Note 67666: The SAS® 9.4 ODBC driver for the PostgreSQL database contains a component with a known vulnerability (CVE-2021-3393)",
+        "severity": "Severity: Low",
+        "description": "Description: The SAS 9.4 ODBC driver for PostgreSQL contains a component with a known vulnerability. For details, see CVE-2021-3393.",
+        "impact": "Potential Impact: An attacker might gain unauthorized access to information (that is, unauthorized information disclosure can occur)."
+    }, {
+        "title": "Problem Note 67660: The text object in SAS® Visual Analytics contains a cross-site scripting (XSS) vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: The text object in SAS Visual Analytics contains a cross-site scripting (XSS) vulnerability that enables JavaScript to be embedded in a certain property. ",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 67604: SAS® Viya® 3.5 uses a RabbitMQ version that contains security vulnerabilities in its Admin user interface (UI)",
+        "severity": "Severity: Medium",
+        "description": "Description: The RabbitMQ Admin UI uses an old version of jQuery, which contains the following vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 67583: The \"Section Data\" panel in SAS® Web Report Studio contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: In SAS Web Report Studio, the Section Data panel contains a cross-site scripting vulnerability.",
+        "impact": "Potential Impact: An attacker might be able to inject malicious code into the Section Data panel. This code is executed in your browser, which enables the attacker to steal privilege information. "
+    }, {
+        "title": "Problem Note 67581: The tool-tip function in the SAS® Web Report image tool contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: In SAS Web Report Studio, the tool-tip function in the image tool (Edit Image dialog box) contains a cross-site scripting vulnerability. ",
+        "impact": "Potential Impact: An attacker might be able to inject malicious code into the tool-tip text. This code is executed in your browser when you hover over the image. As a result, the attacker can steal privileged information."
+    }, {
+        "title": "Problem Note 67559: TLSv1.0 is supported on the SAS® Cache Locator (10334/tcp) and the SAS® Cache Server (14443/tcp)",
+        "severity": "Severity: Low",
+        "description": "Description:  TLSv1.0 is supported on the SAS Cache Locator (10334/tcp) and the SAS Cache Server (14443/tcp).",
+        "impact": "Potential Impact: The SAS Cache Locator and the SAS Cache Server are vulnerable to the BEAST attack. "
+    }, {
+        "title": "Problem Note 67540: SAS® Visual Data Builder allows unauthorized users to execute arbitrary SAS® code",
+        "severity": "Severity: Critical\nDescription: SAS Visual Data Builder contains an authorization bypass vulnerability.\nPotential Impact: Authenticated users, without the proper roles to use the SAS Visual Data Builder application, can execute arbitrary SAS code.",
+        "description": "Click the Hot Fix tab in this note to access the hot fix for this issue.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 67506: SAS® Data Loader for Hadoop 3.1 includes a vulnerable third-party library",
+        "severity": "Severity: High",
+        "description": "Description: SAS Data Loader for Hadoop 3.1 includes a version of dojo (an NPM package) that has known vulnerabilities. Details about these vulnerabilities are available in the following CVE document:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 67449: A security vulnerability in IBM Platform Process Manager affects Platform Suite for SAS®",
+        "severity": "Severity: Medium",
+        "description": "Description: A security vulnerability within component jars for Platform Process Manager affects scheduling and Platform Flow Manager functions.",
+        "impact": "Potential Impact: Confidential information, such as passwords, can potentially be exposed."
+    }, {
+        "title": "Problem Note 67330: The SAS® Visual Analytics Transport Service contains a broken access control vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: The SAS Visual Analytics Transport Service contains a broken access control vulnerability. ",
+        "impact": "Potential Impact: Unauthenticated users can access internal SAS settings through a certain REST application programming interface (API) endpoint. "
+    }, {
+        "title": "Problem Note 67321: The Spring AMQP library that is included with SAS® Environment Manager is affected by the vulnerability that is described in CVE-2018-11087",
+        "severity": "Severity: Medium",
+        "description": "Description: The Spring AMQP library that is included with SAS Environment Manager is affected by the vulnerability that is described in CVE-2018-11087.",
+        "impact": "Potential Impact: An attacker might intercept and view data that passes over the network. "
+    }, {
+        "title": "Problem Note 67331: The SAS® Visual Analytics Hub discloses a database error",
+        "severity": "Severity: Low",
+        "description": "Description: The SAS Visual Analytics Hub discloses a database error. ",
+        "impact": "Potential Impact: The error message could help an attacker to gain the internal data layout of the application."
+    }, {
+        "title": "Problem Note 67319: DataFlux® Data Management Server 2.9 REST APIs contain a cross-site request forgery (CSRF) vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: DataFlux Data Management Server 2.9 REST APIs contain a CSRF vulnerability.",
+        "impact": "Potential Impact: An attacker might cause information to be submitted to a vulnerable application on behalf of a valid user."
+    }, {
+        "title": "Problem Note 67311: SAS® Health: Cohort Builder 2.1 - Security vulnerability identified in jQuery version included in HTML Commons version provided for Cohort Builder UI",
+        "severity": "Severity: Medium",
+        "description": "Description: Security vulnerabilities were identified in the version of jQuery currently included in a version of HTML Commons that is part of SAS Health: Cohort Builder 2.1. HTML Commons is providing a hot fix for all versions of HTML Commons currently in the field or pending release. A fix to the SAS Health: Cohort Builder 2.1 UI is required in order to accommodate the HTML Commons fix.",
+        "impact": "Potential Impact: For details regarding the addressed vulnerabilities, reference the links listed below:"
+    }, {
+        "title": "Problem Note 67285: DataFlux® Data Management Studio 2.9 and DataFlux® Data Management Server 2.9 contain an Apache Tika component with known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: The Apache HttpClient and jackson-databind libraries that are contained in the the Apache Tika component included with DataFlux Data Management Studio 2.9 and DataFlux Data Management Server 2.9 are affected by the vulnerabilities described in the following CVE records:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 67264: SAS® Studio allows cross-site scripting via a maliciously formed SVG file",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Studio allows  cross-site scripting via a maliciously formed SVG file.",
+        "impact": "Potential Impact: A user might execute malicious code unknowingly."
+    }, {
+        "title": "Problem Note 67265: SAS® Studio includes a version of the dojo.js library that has known vulnerabilities",
+        "severity": "Severity: Critical",
+        "description": "Description: SAS Studio includes a version of the dojo.js library that has known vulnerabilities, as described by these CVE records:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 67256: SAS® Anti-Money Laundering contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: An authenticated user can store malicious JavaScript in the comment and description of a case.",
+        "impact": "Potential Impact: If a user accesses the case to edit the comment or description, the malicious JavaScript is executed in the browser."
+    }, {
+        "title": "Problem Note 67257: SAS® Anti-Money Laundering contains a broken access-control vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: A user with the Create Alert (AML.ALERT.CREATE) capability can create an alert on an entity that they should not have access to by using HTTP POST on the /alerts REST endpoint.",
+        "impact": "Potential Impact: Unauthorized users can create alerts on entities that they should not have access to."
+    }, {
+        "title": "Problem Note 67258: SAS® Anti-Money Laundering contains a broken access-control vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: A user with the Add to Case (AML.ENTITY.ADDTOCASE.MY) capability can add an entity that they do not own to a case by using HTTP POST on the /cases REST endpoint.",
+        "impact": "Potential Impact: Users can add to a case an entity that they should not have access to."
+    }, {
+        "title": "Problem Note 67194: SAS® Environment Manager includes a version of Apache Ant that has known vulnerabilities",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Environment Manager includes Apache Ant 1.9.13, which is affected by the vulnerability that is described in CVE-2020-1945.",
+        "impact": "Potential Impact: The affected library might enable the leaking of sensitive information."
+    }, {
+        "title": "Problem Note 67178: The HTML Commons component in SAS® Viya® 3.5 is affected by the JQuery vulnerability that is described in CVE-2020-11022",
+        "severity": "Severity: Medium",
+        "description": "Description: The HTML Commons component in SAS Viya 3.5 includes a version of JQuery that is affected by the vulnerability described in CVE-2020-11022.",
+        "impact": "Potential Impact: A user's web browser might execute untrustworthy code. "
+    }, {
+        "title": "Problem Note 67145: Security updates for SAS® Web Infrastructure Platform Data Server JDBC drivers",
+        "severity": "Severity: Medium",
+        "description": "Description: JDBC 42.2.x is used in SAS® 9.4M7 (TS1M7) as the underlying technology for some SAS clients to access the SAS Web Infrastructure Platform Data Server. This version of JDBC driver ​​​​​has the following known security vulnerability: Vulnerability Summary for CVE-2020-13692",
+        "impact": "Potential Impact: This security concern can cause improper restriction of the XML external entity reference."
+    }, {
+        "title": "Problem Note 67117: DataFlux® Data Management Studio 2.9 and DataFlux® Data Management Server 2.9 are affected by the JQuery vulnerability described in CVE-2020-11022",
+        "severity": "Severity: Medium",
+        "description": "Description: DataFlux Data Management Studio 2.9 and DataFlux Data Management Server 2.9 include a version of JQuery that is affected by the vulnerability described in CVE-2020-11022.",
+        "impact": "Potential Impact:  A user's web browser might execute untrustworthy code. For details, see the CVE report above."
+    }, {
+        "title": "Problem Note 67046: SAS® Workflow Administrator is affected by the JQuery vulnerability that is described in CVE-2020-11022",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Workflow Administrator includes a version of JQuery that is affected by the vulnerability described in CVE-2020-11022.",
+        "impact": "Potential Impact: A user's web browser might execute untrustworthy code."
+    }, {
+        "title": "Problem Note 67033: The IMPORT and EXPORT procedures in Base SAS® software contain a buffer overflow vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: A buffer overflow condition can occur when PROC IMPORT or PROC EXPORT use a fileref that is defined in a FILENAME statement and that fileref references a sufficiently long file name.",
+        "impact": "Potential Impact: The buffer overflow condition can lead to denial of service or to arbitrary code execution."
+    }, {
+        "title": "Problem Note 66999: The SAS® Web Application Server is affected by multiple Apache Tomcat vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: The SAS Web Application Server is affected by the Apache Tomcat vulnerabilities that are described in the following CVE records:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 67000: The HTML Commons component in SAS® 9.4 Web Infrastructure Platform is affected by the JQuery vulnerability that is described in CVE-2020-11022",
+        "severity": "Severity: Medium",
+        "description": "Description: The HTML Commons component in SAS 9.4 Web Infrastructure Platform includes a version of JQuery that is affected by the vulnerability described in CVE-2020-11022.",
+        "impact": "Potential Impact: A user's web browser might execute untrustworthy code."
+    }, {
+        "title": "Problem Note 66995: The SAS®9 Content Assessment tool includes third-party libraries with known vulnerabilities",
+        "severity": "Severity: Critical",
+        "description": "Description: The SAS®9 Content Assessment tool includes third-party libraries with known vulnerabilities, as described in these CVE records:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 66985: The MDC procedure contains a stack-corruption vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: PROC MDC contains a stack-corruption vulnerability. In certain circumstances, a \"Stack Overflow\" error might occur.",
+        "impact": "Potential Impact: This corruption can result in a vulnerability to arbitrary code execution or to denial-of-service attacks."
+    }, {
+        "title": "Problem Note 66922: SAS® 9.4 Logon Manager contains third-party libraries that have known vulnerabilities",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS 9.4 Logon Manager contains third-party libraries with the following known vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 66904: An incorrect SAS Identity might be associated with an inbound login to the SAS® Metadata Server",
+        "severity": "Severity: Medium",
+        "description": "Description: An incorrect user identification vulnerability has been identified in SAS Metadata Server.",
+        "impact": "Potential Impact: A user might be associated with a wrong SAS identity during inbound login to SAS Metadata Server."
+    }, {
+        "title": "Problem Note 66895: A security vulnerability currently exists in SAS® Deployment Agent",
+        "severity": "Severity: Medium\nDescription: SAS Deployment Agent performs unsafe Java object deserialization.\nPotential Impact: There is a risk, under certain conditions, that an attacker might be able to remotely execute malicious code.",
+        "description": "Click the Hot Fix tab in this note to access the hot fix for this issue.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 66864: SAS® Information Delivery Portal might allow unauthorized access to the file system",
+        "severity": "Severity: High",
+        "description": "Description: SAS Information Delivery Portal might allow unauthorized access to the server file system via the URL display portlet.",
+        "impact": "Potential Impact: A user can gain unauthorized access to the server file system."
+    }, {
+        "title": "Problem Note 66837: SAS® Information Delivery Portal 4.4_M6 contains a stored, cross-site scripting vulnerability in the portlet Title field",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Information Delivery Portal 4.4_M6 contains a stored, cross-site scripting vulnerability in the portlet Title field.",
+        "impact": "Potential Impact: A user might execute malicious code unknowingly."
+    }, {
+        "title": "Problem Note 66805: SAS® Anti-Money Laundering supports a version of Apache Solr with known vulnerabilities",
+        "severity": "Severity: Critical",
+        "description": "Description: Apache Solr 5.5.5, which is supported by SAS Anti-Money Laundering 7.1, contains the vulnerabilities described in the following CVE records:",
+        "impact": "No Content"
+    }, {
+        "title": "No Content",
+        "severity": "No Content",
+        "description": "No Content",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 66761: SAS® Risk Governance Framework contains an unrestricted file-upload vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: A user might be able to save an attachment with an executable extension.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 66753: A security vulnerability issue regarding user passwords occurs in SAS® Environment Manager Administration",
+        "severity": "Severity: Medium",
+        "description": "Description: In SAS Environment Manager Administration, on the Accounts tab in Users, a user's password might be displayed in sas002 encoded format. ",
+        "impact": "Potential Impact: An unauthorized user could potentially decode a password."
+    }, {
+        "title": "Problem Note 66710: Access token information is not refreshed in subsequent sessions within a reusable compute server",
+        "severity": "Severity: Low",
+        "description": "Description: Access tokens are not refreshed for subsequent requests and sessions in a compute server that is configured to be reusable.",
+        "impact": "Potential Impact: Data access could be performed using an access token from a user that is not the session owner. "
+    }, {
+        "title": "Problem Note 66615: SAS® Visual Process Orchestration Server contains a Microsoft Windows unquoted service-path-enumeration vulnerability",
+        "severity": "SAS Visual Process Orchestration Server contains a Microsoft Windows unquoted service-path-enumeration vulnerability.",
+        "description": "Potential Impact: A local attacker could gain elevated privileges by inserting an executable file in the path of the affected service.",
+        "impact": "Severity: High"
+    }, {
+        "title": "Problem Note 66598: The SAS® 9.4 Web Server is vulnerable to the issues that are described in CVE-2020-11080, CVE-2020-11984, and CVE-2020-11993",
+        "severity": "Severity: Low",
+        "description": "Description: The SAS Web Server, which uses Apache HTTP Server 2.4.43 or earlier, is vulnerable to the issues that are described in CVE-2020-11080, CVE-2020-11984, and CVE-2020-11993.",
+        "impact": "Potential Impact: Certain attacks might be possible if the SAS Web Server is configured to use HTTP/2 protocol or the mod_proxy_uwsgi Apache module. Note that the default configuration of SAS Web Server is not vulnerable to these security issues. You encounter the issues only if you have enabled HTTP/2 or the mod_proxy_uwsgi Apache module. "
+    }, {
+        "title": "Problem Note 66606: Certain DataFlux® products contain a Microsoft Windows unquoted service-path-enumeration vulnerability",
+        "severity": "The following DataFlux products contain a Microsoft Windows unquoted service-path-enumeration vulnerability:",
+        "description": "No Content",
+        "impact": "Potential Impact: A local attacker could gain elevated privileges by inserting an executable file in the path of the affected service."
+    }, {
+        "title": "Problem Note 66597: SAS® Anti-Money Laundering contains a broken access-control vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: Users can add comments and attachments to objects (for example, alerted entities with alerts, cases, reports, risk assessments, and CDD reviews) that they do not own or should not have access to.",
+        "impact": "Potential Impact: Unauthorized users can add comments and attachment to objects."
+    }, {
+        "title": "Problem Note 66541: SAS® Viya® products include an Apache Shiro library with a known vulnerability (CVE-2020-11989)",
+        "severity": "Severity: Critical",
+        "description": "Description: SAS Viya products include an Apache Shiro library with a known vulnerability, which is described in CVE-2020-11989.",
+        "impact": "Potential Impact: An attacker might be able to bypass authentication via a specially crafted request."
+    }, {
+        "title": "Problem Note 66485: SAS® Anti-Money Laundering 7.1 includes a vulnerable third-party library",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Anti-Money Laundering 7.1 includes a version of jQuery that has known vulnerabilities. Details about these vulnerabilities are available in the following CVE documents.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 66473: SAS® Drive discloses sensitive information in error messages",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Drive might disclose sensitive information in error messages as a result of underlying Java stack traces that are surfaced to the web browser.",
+        "impact": "Potential Impact: Implementation information might be exposed to an attacker."
+    }, {
+        "title": "Problem Note 66453: The GCHART procedure with the ODS HTML5 destination contains a stack-corruption vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: PROC GCHART contains a stack-corruption vulnerability. When the procedure is used with the ODS HTML5 destination, an abend occurs.",
+        "impact": "Potential Impact: This corruption might result in a vulnerability to arbitrary code execution or to denial-of-service attacks."
+    }, {
+        "title": "Problem Note 66445: SAS® Information Delivery Portal contains a security weakness that is related to web links to untrusted targets",
+        "severity": "Severity: Informational",
+        "description": "Description: SAS Information Delivery Portal contains a security weakness that is related to web links to untrusted target pages. These problematic links can occur when you select Help ► About in the application.",
+        "impact": "Potential Impact: A user might be redirected unknowingly to a malicious site. See CWE-1022 for more information about this security weakness."
+    }, {
+        "title": "Problem Note 66411: The IML procedure contains a stack-corruption vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: PROC IML contains a stack-corruption vulnerability. In certain circumstances, a Stack Overflow error might occur.",
+        "impact": "Potential Impact: This corruption can result in a vulnerability to arbitrary code execution or to denial-of-service attacks."
+    }, {
+        "title": "Problem Note 66328: The HTML Commons component in SAS® 9.4 is vulnerable to the issue that is described in CVE-2019-0281",
+        "severity": "Severity: Medium",
+        "description": "Description: HTML Commons, a component that is used by many SAS® web applications, is vulnerable to the cross-site scripting issue that is described in CVE-2019-0281.",
+        "impact": "Potential Impact: Users might execute, unknowingly, malicious JavaScript that is inserted by an attacker."
+    }, {
+        "title": "Problem Note 66317: Various CAS functions can create a stack-corruption vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: User functions (CDF, SDF, PDF, QUANTILE, SQUANTILE, FINANCE) or their counterparts in the FCMP procedure can result in access-violation errors or SAS® software crashes.",
+        "impact": "Potential Impact: Under certain circumstances, a stack corruption occurs. This corruption can result in a vulnerability to arbitrary code execution or to denial-of-service attacks."
+    }, {
+        "title": "Problem Note 66282: The SAS® Visual Investigator searchguard component contains a Broken Access Control vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: The SAS Visual Investigator searchguard component contains a Broken Access Control vulnerability.",
+        "impact": "Potential Impact: Under specific circumstances, a user might gain elevated privileges for searching."
+    }, {
+        "title": "Problem Note 66228: The SAS® Web Application Server is affected by the vulnerability that is described in CVE-2020-1935",
+        "severity": "Severity: Medium",
+        "description": "Description: The SAS Web Application Server is affected by the vulnerability that is described in CVE-2020-1935.",
+        "impact": "Potential Impact: Under certain conditions, the server can be vulnerable to HTTP Request Smuggling attacks."
+    }, {
+        "title": "Problem Note 66134: SAS® Management Console contains an XML External Entity (XXE) processing vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Management Console contains an XML External Entity (XXE) processing vulnerability in the Add Resource Template capability.",
+        "impact": "Potential Impact: An attacker might gain unauthorized access to files or might embed malicious content. See XML External Entity (XXE) Processing for further information."
+    }, {
+        "title": "Problem Note 66129: The SAS® 9.4 Web Server is vulnerable to the issue that is described in CVE-2020-1927",
+        "severity": "Severity: Medium",
+        "description": "Description: The SAS Web Server, which uses Apache HTTP Server 2.4.41 or earlier, is vulnerable to the issue that is described in CVE-2020-1927.",
+        "impact": "Potential Impact: An attacker might redirect users to an arbitrary URL."
+    }, {
+        "title": "Problem Note 66112: SAS® Anti-Money Laundering contains a vulnerability in a REST endpoint",
+        "severity": "Severity: Medium\nDescription: A vulnerability exists in a REST endpoint in SAS Anti-Money Laundering. \nPotential Impact: Unauthorized users can perform specific tasks in the user interface.",
+        "description": "Click the Hot Fix tab in this note to access the hot fix for this issue.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 66100: SAS® Viya® contains a Microsoft Windows unquoted service-path-enumeration vulnerability",
+        "severity": "Severity:Medium",
+        "description": "Description: SAS Viya contains a Microsoft Windows unquoted service-path-enumeration vulnerability.",
+        "impact": "Potential Impact: A local attacker can gain elevated privileges by inserting an executable file in the path of the affected service."
+    }, {
+        "title": "Problem Note 66091: SAS® Enterprise Case Management and SAS® Anti-Money Laundering deployments are vulnerable to CVE-2017-3164 when they have a clustered Apache Solr configuration",
+        "severity": "Severity: High",
+        "description": "Description: SAS Enterprise Case Management and SAS Anti-Money Laundering deployments are vulnerable to the issue that is described in CVE-2017-3164 when they use Apache Solr that is configured in a legacy master/slave cluster for distributed searching.",
+        "impact": "Potential Impact: An attacker might be able to send arbitrary HTTP requests through Apache Solr. For reference see Server-Side Request Forgery."
+    }, {
+        "title": "Problem Note 66067: SAS® Fraud Management contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Fraud Management contains a cross-site scripting vulnerability in its Business Unit user interface functionality.",
+        "impact": "Potential Impact: A user might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 66004: SAS® Studio contains a broken access-control vulnerability in its file download capability",
+        "severity": "Severity: Medium",
+        "description": "Description: A broken access-control vulnerability in SAS Studio allows a file download when the capability has been revoked.",
+        "impact": "Potential Impact: A user could perform file downloads when the capability has been revoked."
+    }, {
+        "title": "Problem Note 65983: The LUA procedure contains an authorization-bypass vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: PROC LUA contains a vulnerability that allows a user of SAS® software to bypass the LOCKDOWN option.",
+        "impact": "Potential Impact: A user can execute arbitrary code on the server."
+    }, {
+        "title": "Problem Note 65951: The GEE procedure contains a stack-corruption vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: PROC GEE contains a stack-corruption vulnerability.",
+        "impact": "Potential Impact: PROC GEE can cause a stack corruption. This corruption can result in a vulnerability to arbitrary code execution or to denial-of-service attacks."
+    }, {
+        "title": "Problem Note 65908: The IMPORT procedure contains a stack-corruption vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: PROC IMPORT contains a stack-corruption vulnerability.",
+        "impact": "Potential Impact: Under certain circumstances (with use of the DBMS=DBF option), PROC IMPORT can cause a stack corruption. This corruption can result in a vulnerability to arbitrary code execution or to denial-of-service attacks."
+    }, {
+        "title": "Problem Note 65906: The EXPORT procedure contains a stack-corruption vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: PROC EXPORT contains a stack-corruption vulnerability.",
+        "impact": "Potential Impact: Under certain circumstances, the use of PROC EXPORT can cause a stack corruption. Such corruption can result in a vulnerability to arbitrary code execution or to denial-of-service attacks."
+    }, {
+        "title": "Problem Note 65891: The XSL procedure contains an authorization-bypass vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: PROC XSL contains an authorization-bypass vulnerability.",
+        "impact": "Potential Impact: A user might be able to execute code remotely on a SAS® server even when the NOXCMD option is enabled."
+    }, {
+        "title": "Problem Note 65854: SAS® Visual Analytics contains a cross-site scripting vulnerability in the report-designer component",
+        "severity": "Severity: Medium",
+        "description": "Description: The SAS Visual Analytics report-designer component contains a cross-site scripting vulnerability in the object dialog box.",
+        "impact": "Potential Impact: A user might execute malicious code unknowingly."
+    }, {
+        "title": "Problem Note 65752: SAS® Anti-Money Laundering contains a privilege escalation vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Anti-Money Laundering contains a privilege escalation vulnerability.",
+        "impact": "Potential Impact: A user might be able to bypass authorization controls and access administrative data in the application."
+    }, {
+        "title": "Problem Note 65733: SAS® BI Dashboard allows potentially unauthorized access to your server's file system",
+        "severity": "Severity: High",
+        "description": "Description: SAS BI Dashboard allows potentially unauthorized access to your server's file system via its image-attachment capability.",
+        "impact": "Potential Impact: A user might access files on the server that otherwise they should not be able to access."
+    }, {
+        "title": "Problem Note 65716: SAS® BI Dashboard contains a remote code-execution vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: SAS BI Dashboard contains a remote code-execution vulnerability via de-serialization of AMF payload.",
+        "impact": "Potential Impact: An authenticated SAS® software user might execute system commands on the host server."
+    }, {
+        "title": "Problem Note 65680: SAS/ACCESS® Interface to Oracle contains a remote code execution vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS/ACCESS Interface to Oracle contains a remote code execution vulnerability when the BL_SQLLDR_PATH= option is used. ",
+        "impact": "Potential Impact: An attacker might execute arbitrary code."
+    }, {
+        "title": "Problem Note 65670: SAS® Data Management Server contains gSOAP libraries that have a known vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: SAS Data Management Server contains gSOAP libraries that are affected by CVE-2017-9765.",
+        "impact": "Potential Impact: An attacker might execute arbitrary code on the server or cause Denial of Service."
+    }, {
+        "title": "Problem Note 65614: SAS® 9.4 Logon Manager is incorrectly identified as being impacted by CVE-2019-11358",
+        "severity": "Severity: Informational",
+        "description": "Description: Automated vulnerability scanners might incorrectly identify the jQuery file that is used by SAS 9.4 Logon Manager as being impacted by CVE-2019-11358. This identification is not true because SAS Logon Manager does not use the vulnerable function that is described in the CVE.",
+        "impact": "Potential Impact: There is no impact. Installing the hot fix that is associated with this note updates the jQuery file to version 3.4.0 or later."
+    }, {
+        "title": "Problem Note 65532: SAS® Web Infrastructure Platform includes a JQuery library that has a known vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: The SAS® 9.4 Permission Manager component of the SAS Web Infrastructure Platform includes a JQuery 1.8.0 library that has a known vulnerability. For details about the vulnerability, see CVE-2010-5312.",
+        "impact": "Potential Impact:.JQuery 1.8.0 contains a vulnerability that might enable an attacker to inject a malicious script."
+    }, {
+        "title": "Problem Note 65499: SAS® Fraud Management contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Fraud Management contains a cross-site scripting vulnerability in its Alert functionality.",
+        "impact": "Potential Impact: A user might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 65492: SAS® Visual Investigator contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Visual Investigator contains cross-site scripting vulnerabilities in the /svi-datahub/documents endpoint and in the Audit Report interface.",
+        "impact": "Potential Impact: Users might execute malicious code unknowingly."
+    }, {
+        "title": "Problem Note 65473: SAS® Studio contains cross-site scripting vulnerabilities in multiple JSP files",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Studio contains cross-site scripting vulnerabilities in multiple JSP files.",
+        "impact": "Potential Impact: A user might execute malicious JavaScript unknowingly."
+    }, {
+        "title": "Problem Note 65443: SAS® Studio has an injection vulnerability that permits execution of code into Apache Velocity templates",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Studio permits the execution of code into Velocity templates.",
+        "impact": "Potential Impact: An attacker can execute malicious code on the server."
+    }, {
+        "title": "Problem Note 65379: Attempting to use a template generated by the Output Delivery System (ODS) might cause SAS® to crash",
+        "severity": "Severity: Medium",
+        "description": "Description: Attempting to use a template generated by ODS might cause SAS to crash. This issue occurs when the ODS template name contains more than 32 characters.",
+        "impact": "Potential Impact: The issue mentioned above could possibly be used to initiate a denial-of-service (DoS) attack, depending on what happens to the process that runs this code. This condition could result in a lack of confidentiality, integrity, or availability, which might result in a cyber breach."
+    }, {
+        "title": "Problem Note 65358: SAS® Graph Builder contains a cross-site scripting vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: An authenticated user can store a graph template containing malicious Javascript.",
+        "impact": "Potential Impact: If a user accesses the graph template directly (outside of SAS® Visual Analytics), the malicious Javascript is executed in the user's browser."
+    }, {
+        "title": "Problem Note 65348: SAS® Studio discloses potentially sensitive information through JavaScript variables",
+        "severity": "Severity: Low",
+        "description": "Description: JavaScript variables that are visible in some SAS Studio source files expose potentially sensitive information.",
+        "impact": "Potential Impact: An attacker might gain access to information that can aid in the exploitation of the system."
+    }, {
+        "title": "Problem Note 65335: Tabs in code data lines cause a buffer overflow in the nlmnyloc routine",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS® Studio generates the message \"An exception was thrown while sending a packet to the peer.\" When data lines contain tab separators, the DATA step fails. A buffer overrun condition then occurs.",
+        "impact": "Potential Impact: The above condition could result in a lack of confidentiality or availability that might result in a cyber breach."
+    }, {
+        "title": "Problem Note 65297: SAS® Hadoop Configuration Libraries 2.6 contains jackson-databind libraries with known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS Hadoop Configuration Libraries 2.6 includes jackson-databind 2.9.9.3 and 2.9.5 libraries that have known vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 65296: SAS® Visual Analytics Transport Service does not provide tokenized cross-site request forgery (CSRF) protection",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Visual Analytics Transport Service does not provide tokenized CSRF protection.",
+        "impact": "Potential Impact: An attacker might cause information to be submitted to a vulnerable application on behalf of a valid user."
+    }, {
+        "title": "Problem Note 65244: SAS® Decision Manager allows forgery of comments or attachments",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Decision Manager allows forgery of the user who is associated with comments or attachments.",
+        "impact": "Potential Impact: An attacker or malicious user might forge comments and attachments."
+    }, {
+        "title": "Problem Note 65230: SAS® 9.4M6 Logon Manager does not impose size restrictions on the user-ID and password input fields",
+        "severity": "Severity: Low",
+        "description": "Description: SAS 9.4M6 Logon Manager does not impose size restrictions on the user-ID and password input fields.",
+        "impact": "Potential Impact: An attacker might attempt a Denial of Service attack by submitting arbitrarily large values on the logon page."
+    }, {
+        "title": "Problem Note 65207: Communications between IBM Platform Process Manager and SAS® Management Console are not encrypted",
+        "severity": "Severity: High\n\nDescription: Platform Process Manager has an option, JS_ENCRYPTION, that is not implemented in Platform Suite for SAS. The JS_ENCRYPTION option turns on encryption between Platform Process Manager and client applications. \n\nPotential Impact: The above condition could result in a lack of confidentiality, integrity, or availability that might result in a cyber incident or cyber breach.\n\nClick the Hot Fix tab in this note to access the hot fix for this issue.",
+        "description": "No Content",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 65196: SAS® 9.4M6 Logon Manager contains a reflected cross-site scripting vulnerability via the referer header",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS 9.4M6 Logon Manager contains a reflected cross-site scripting vulnerability via the referer header, which might be injected with malicious script.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 65192: Possible security vulnerability involving the ARBOR procedure when nominal target variable has double-byte formatted values that exceed 256 characters",
+        "severity": "Title: Possible security vulnerability involving the ARBOR procedure when nominal target variable has double-byte formatted values that exceed 256 characters",
+        "description": "\nSeverity: Medium\n ",
+        "impact": "Description: In SAS® Enterprise Miner™, running a node that fails with an access violation might create a possible security vulnerability.  The problem occurs when all of these conditions are true."
+    }, {
+        "title": "Problem Note 65190: SAS® Enterprise Miner™ contains ICU4J libraries that are vulnerable to the issue that is described in CVE-2018-18928",
+        "severity": "Severity: High",
+        "description": "Description: The ICU4J 61.1.0.0 libraries that are included with SAS Enterprise Miner contain known vulnerabilities, including the vulnerability that is described in CVE-2018-18928.",
+        "impact": "Potential Impact: See the CVE records for details."
+    }, {
+        "title": "Problem Note 65165: SAS® Customer Inteligence Studio contains a version of the BlazeDS library that is vulnerable to the issue that is described in CVE-2017-3066",
+        "severity": "Severity: High",
+        "description": "Description: SAS Customer Intelligence Studio contains a version of the BlazeDS component that is affected by the vulnerability that is described in CVE 2017-3066.",
+        "impact": "Potential Impact: An attacker can use this vulnerability as a first stage of attack that can lead to remote code execution. Remote code execution can occur if the software is not patched against the Java deserialization vulnerability that is described in SAS Statement Regarding Java Deserialization Vulnerability.  "
+    }, {
+        "title": "Problem Note 65144: A security vulnerability occurs for SAS/CONNECT® server connections when the SASCLIENTPORT is recycled",
+        "severity": "Severity: Low",
+        "description": "Description: Occasionally, SAS/CONNECT users who are using IBM Platform LSF connect to the SAS/CONNECT server sessions for incorrect user IDs.",
+        "impact": "Potential Impact: The above condition can result in a security  breach."
+    }, {
+        "title": "Problem Note 65135: Geomap functionality in SAS® Visual Analytics contains a cross-site scripting (XSS) vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: Geomap functionality in SAS Visual Analytics contains a cross-site scripting (XSS) vulnerability that enables JavaScript to be embedded in certain objects or URLs.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 65075: SAS® Customer Intelligence Studio is vulnerable to a reverse tabnabbing attack",
+        "severity": "Severity: Medium",
+        "description": "Description: An authenticated attacker can add a link to his or her website that does not contain the NOOPENER or NOREFERRER attributes.",
+        "impact": "Potential Impact: Users might be redirected to a malicious site unknowingly when they view the content of a new tab. "
+    }, {
+        "title": "Problem Note 65066: Update to the PostgreSQL libpq module to address known security concerns",
+        "severity": "Severity: Medium",
+        "description": "Description: The current version of the libpq module shipped with the PostgreSQL ODBC driver for use with SAS/ACCCESS® Interface to PostgreSQL and the SAS® Web Infrastructure Platform Data Server contains the following known security vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 65072: Platform Web Services contains a security vulnerability in Apache Commons Beanutils 1.9.2",
+        "severity": "Severity: High",
+        "description": "Description: Platform Web Services 9.1.3.2 has been found to include a vulnerability in Apache Commons Beanutils 1.9.2, per the vulnerability that is described in CVE-2019-10086.",
+        "impact": "Potential Impact: An attacker can execute malicious code on Java objects."
+    }, {
+        "title": "Problem Note 65059: Source comments in SAS® Studio reveal sensitive information",
+        "severity": "Severity: Low",
+        "description": "Description: A file that is available as part of SAS Studio contains source comments that reveal the version of the third-party components.",
+        "impact": "Potential Impact: The source comments reveal information that might be useful to an attacker."
+    }, {
+        "title": "Problem Note 65018: Unused Apache Struts libraries might remain in the SAS® Versioned JAR Repository after SAS Security Update 9-17-2019 is applied",
+        "severity": "Severity: Informational",
+        "description": "Description: The SAS security update that was released on 9-17-2019 removes unused Apache Struts libraries from the SAS deployment, which might contain known vulnerabilities.",
+        "impact": "Potential Impact: After you apply this update, the following unused Struts library might remain in the SAS Versioned Jar Repository:"
+    }, {
+        "title": "Problem Note 65019: SAS® Environment Manager contains an Apache Commons Beanutils library that is vulnerable to the problem that is described in CVE-2019-10086",
+        "severity": "Severity: High",
+        "description": "Description: The affected Apache Commons Beanutils library might enable the deserialization of untrusted data, per the vulnerability that is described in CVE-2019-10086.",
+        "impact": "Potential Impact: An attacker might execute malicious code."
+    }, {
+        "title": "Problem Note 65020: The SAS® Environment Manager server is affected by the CVE-2019-0232 vulnerability",
+        "severity": "Severity: Informational",
+        "description": "Description: The Apache Tomcat version that underlies the SAS Environment Manager server is vulnerable to the issue that is described in CVE-2019-0232.",
+        "impact": "Potential Impact: The SAS Environment Manager server is not affected by this issue, by default, because the affected functionality is not enabled or configured. However, if that functionality is enabled, then the server is vulnerable to remote code execution."
+    }, {
+        "title": "Problem Note 65006: OpenSSL and Apache vulnerabilities exist in the SAS® 9.4 Web Server (OpenSSL advisories through 10 September 2019)",
+        "severity": "Severity: High",
+        "description": "Description: SAS Web Server 9.45, delivered with SAS 9.4M6 (TS1M6), includes Apache HTTP Server 2.4.38 and OpenSSL 1.0.2r. OpenSSL 1.0.2r contains vulnerabilities per a September 10, 2019 advisory that is available on the OpenSSL website. Apache 2.4.38 contains the following vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 64980: The PRINT procedure contains a buffer-overrun vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: PROC PRINT might fail with a buffer overrun when you submit it in conjunction with certain malformed SAS® statements.",
+        "impact": "Potential Impact: The buffer-overrun condition might cause Denial of Service issues or cause the affected process to be vulnerable to malicious code execution."
+    }, {
+        "title": "Problem Note 64984: SAS® Web Report Studio contains an information-disclosure vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: The SAS Web Report Studio Director endpoint might display a Java stack trace in the user's web browser as the result of an improperly handled exception.",
+        "impact": "Potential Impact: Application details are disclosed that might be useful to an attacker."
+    }, {
+        "title": "Problem Note 64962: SAS® Customer Intelligence Studio users can access treatments from other business contexts",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Customer Intelligence Studio contains a data-integrity security vulnerability that enables a user of one business context to access treatments of other business contexts, even though that user should not have access to the treatments.",
+        "impact": "Potential Impact: An unscrupulous person might access treatment object definitions from other business contexts for which they should not have access."
+    }, {
+        "title": "Problem Note 64934: The SAS/GRAPH® Java Applet for Web Servers contains XStream, Groovy, and ICU4J libraries that have known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: The XStream 1.4.10, Groovy 1.7.1.0, and ICU4J 61.1.0.0 libraries that are included with the SAS/GRAPH Java Applet for Web Servers contain known vulnerabilities, including those that are described in the following CVE records:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 64932: The jackson-databind 2.9.7 libraries that are included with SAS® Web Application Server 9.45 contain known vulnerabilities",
+        "severity": "Severity: Medium",
+        "description": "Description: The jackson-databind 2.9.7 libraries that are included with SAS Web Application Server 9.45 contain multiple known vulnerabilities (for example, those that are described in CVE-2019-12384).",
+        "impact": "Potential Impact: These vulnerabilities can have varied impact, including the potential for remote code execution. See the CVE record for details."
+    }, {
+        "title": "Problem Note 64899: SAS® Web Application Server enables improper path normalization",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Web Application Server allows improper path normalization.",
+        "impact": "Potential Impact: The server accepts and normalizes the potentially malicious string /..; when it is inserted into a URL."
+    }, {
+        "title": "Problem Note 64903: SAS® Information Delivery Portal contains a directory-traversal vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: A vulnerability exists in SAS® Information Delivery Portal that allows an attacker to perform a directory-traversal attack.",
+        "impact": "Potential Impact: Potentially, an attacker can leverage this vulnerability to facilitate an information-disclosure attack."
+    }, {
+        "title": "Problem Note 64868: SAS® Studio Basic edition contains Java libraries with known vulnerabilities: CVE-2019-10086, CVE-2018-18928",
+        "severity": "Severity: High",
+        "description": "Description: SAS Studio Basic contains two Java libraries with known vulnerabilities: Apache commons-beanutils 1.9.3 and icu4j 61.1. See the following CVE bulletins for additional details:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 64867: SAS® Web Report Studio contains a stored cross-site scripting vulnerability in the \"Folder Name\" field",
+        "severity": "Severity: Medium",
+        "description": "Description: The Folder Name field in SAS Web Report Studio contains a stored cross-site scripting (XSS) vulnerability. This vulnerability can enable an attacker to inject JavaScript into the field that might be executed later by a user.",
+        "impact": "Potential Impact: A user might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 64842: SAS® 9.4 software references Apache Struts libraries that contain known vulnerabilities",
+        "severity": "Severity: Informational",
+        "description": "Description: SAS 9.4 software includes Apache Struts libraries at run time, but the software does not use the libraries.",
+        "impact": "Potential Impact: Although the affected SAS components do not use these libraries at run time, the libraries are loaded by the Java Virtual Machine as transitive dependencies. As a result, the libraries can be flagged as a threat by a security scan."
+    }, {
+        "title": "Problem Note 64766: The SAS® Viya® authorization service contains a remote code-execution vulnerability",
+        "severity": "Severity: Critical",
+        "description": "Description: The SAS Viya authorization service contains a remote code-execution vulnerability via user-configurable conditional rules.",
+        "impact": "Potential Impact: A SAS® software user might execute system commands on the host server."
+    }, {
+        "title": "Problem Note 64765: SAS® Visual Analytics contains an authorization-bypass security vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Visual Analytics authorization for accessing comments can be bypassed.",
+        "impact": "Potential Impact: Authenticated users without the proper role might access comments for a SAS Visual Analytics report."
+    }, {
+        "title": "Problem Note 64756: A security vulnerability exists in SAS® Social Network Analysis Server",
+        "severity": "Title: SAS® Social Network Analysis Server 6.2M4 has insufficient access control on comments.",
+        "description": "Severity: Medium",
+        "impact": "Description: SAS® Social Network Analysis Server 6.2M4 has insufficient access control on comments."
+    }, {
+        "title": "Problem Note 64719: SAS® XML Mapper contains an XML External Entity (XXE) vulnerability that also affects the XMLV2 LIBNAME engine",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS XML Mapper contains an XML External Entity (XXE) vulnerability. This vulnerability also affects the XMLV2 LIBNAME engine when the AUTOMAP option is used.",
+        "impact": "Potential Impact: An attacker might perform a Denial of Service exploit or inject malicious code or data on a SAS® server that runs compromised SAS code."
+    }, {
+        "title": "Problem Note 64650: SAS® Environment Manager contains XStream libraries with known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: The XStream 1.4.10 and 1.2.2 libraries that are included with SAS Environment Manager have the following known vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 64652: SAS® Environment Manager contains a SpringSource Spring Framework library that has known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS Environment Manager contains the Spring 3.0.4 library, which has the following known vulnerability: CVE-2011-2730",
+        "impact": "Potential Impact: An attacker might gain access to sensitive information."
+    }, {
+        "title": "Problem Note 64613: SAS® Drive has a cross-site scripting vulnerability in the folder name and shortcut name fields",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Drive might allow injection of malicious scripts into the folder name and shortcut name fields.",
+        "impact": "Potential Impact: Malicious code might be executed if users click on a URL that has been specially crafted by an attacker."
+    }, {
+        "title": "Problem Note 64578: The SAS® 9.4 Cache Locator service contains SpringSource Spring Framework libraries with known vulnerabilities",
+        "severity": "Severity: Critical",
+        "description": "Description: The Cache Locator service that is included with SAS 9.4 software up to and including release 9.4M6 (TS1M6) contains the spring-security-ldap-3.1.4 library. This library is vulnerable to issues that are described ion the following CVEs:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 64563: The SAS® 9.4 middle-tier services contain Apache Commons FileUpload components that are vulnerable to CVE-2016-1000031",
+        "severity": "Severity: Critical",
+        "description": "Description: Multiple SAS® middle-tier components that are included with SAS® 9.4 software [up to and including release 9.4M6 (TS1M6)] contain the Apache commons-file-upload-1.3.3 library that is vulnerable to the situation that is described in CVE-2016-1000031.",
+        "impact": "Potential Impact: An attacker might execute malicious code remotely on the server."
+    }, {
+        "title": "Problem Note 64550: SAS® Enterprise Case Management contains a cross-site scripting vulnerability in the CASE_ID parameter",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Enterprise Case Management contains a cross-site scripting vulnerability in the CASE_ID parameter.",
+        "impact": "Potential Impact: A user might execute malicious code unknowingly."
+    }, {
+        "title": "Problem Note 64533: SAS® Decision Manager contains a direct object-reference vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Decision Manager surfaces attachments via a direct object reference in the URL.",
+        "impact": "Potential Impact: By manipulating a URL, a user might gain unauthorized access to attachments that they would not be able to access otherwise."
+    }, {
+        "title": "Problem Note 64494: XSS malicious code can be unintentionally executed in SAS® Visual Investigator",
+        "severity": "Title: SAS® Visual Investigator contains a cross-site scripting (XSS) vulnerability.\nSeverity: High (7.2)\nDescription: A user with database access can update a field value with code that could be executed when opening the entity in SAS Visual Investigator that the field relates to.\nPotential Impact: Users might unknowingly execute malicious code.",
+        "description": "Click the Hot Fix tab in this note for a link to instructions about accessing and applying the software update.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 64442: Apache HTTP Server vulnerabilities and OpenSSL vulnerabilities exist in SAS® Web Server 9.45",
+        "severity": "Severity: High",
+        "description": "Description: SAS Web Server 9.45, which is delivered with SAS® 9.4M6 (TS1M6), includes Apache HTTP Server 2.4.34 and OpenSSL 1.0.2o. Apache HTTP Server 2.4.34 contains vulnerabilities that are described on the Apache HTTP Server Project website. OpenSSL 1.0.2o contains vulnerabilities as described on the OpenSSL website.",
+        "impact": "Note: SAS Web Server 9.45 is part of the SAS® 9.4 Integration Technologies middle tier. The web server is included with SAS® BI Server, SAS® Enterprise BI Server, SAS® Visual Analytics, and any SAS® solution that includes a middle tier."
+    }, {
+        "title": "Problem Note 64329: SAS® Web Application Server is affected by vulnerabilities to the jackson-databind module",
+        "severity": "Severity: High",
+        "description": "Description: The version of the jackson-databind module that is included with SAS Web Application Server is affected by several vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 64328: SAS® Web Application Server is affected by the CVE-2019-0232 vulnerability",
+        "severity": "Severity: Informational",
+        "description": "Description: The Tomcat version that underlies SAS Web Application Server is vulnerable to the issue that is described in CVE-2019-0232.",
+        "impact": "Potential Impact: SAS Web Application Server is not affected by this issue, by default, because the affected functionality is not enabled or configured. However, if that functionality is enabled, then the server is vulnerable to remote code execution."
+    }, {
+        "title": "Problem Note 64256: The Apache Solr version that is supported by SAS® Enterprise Case Management is vulnerable to the issue that is described in CVE-2016-1000031",
+        "severity": "Severity: High",
+        "description": "Description: The Apache Commons FileUpload library that is included with Apache Solr 4.7.2 and 5.5.5 is vulnerable to remote code execution via deserialization. Apache Solr, which contains the library, is used with SAS Enterprise Case Management. For details about the vulnerability, see CVE-2016-1000031.",
+        "impact": "Potential Impact: An attacker might execute malicious code on your system."
+    }, {
+        "title": "Problem Note 64212: Stack-overflow error from the HPSPLIT procedure could be exploited by a crafted attack",
+        "severity": "Title: stack-overflow error from the HPSPLIT procedure could be exploited by a crafted attack",
+        "description": "Severity: Medium",
+        "impact": "Description: In SAS/STAT® software, if you are using the HPSPLIT procedure and a stack-overflow error occurs, then you might encounter a security vulnerability.  Stack-overflow errors display text like the following:"
+    }, {
+        "title": "Problem Note 64193: A database password is seen in the Scenario Administrator log for SAS® Visual Investigator",
+        "severity": "Title: A database password appears in the Scenario Administrator log.",
+        "description": "Severity: Medium",
+        "impact": "Description: If you are using a Microsoft SQL Server or MySQL database, you might notice that the database password is written to the Scenario Administrator log."
+    }, {
+        "title": "Problem Note 64030: SASHDAT files saved to Hadoop Distributed File System (HDFS) grant Read and Write access to all users if you do not specify custom permissions",
+        "severity": "Severity: High",
+        "description": "Description: When using the SAS® 9.4 SASHDAT engine or SAS® Viya® Cloud Analytic Services (CAS) actions to save files to HDFS in SASHDAT format, you encounter a security vulnerability. In this scenario, permissions on saved SASHDAT files incorrectly default to 666 (Read and Write access for all) when you do not specify a permission setting. Instead, the behavior when you do not specify permissions should be that the default HDFS umask is applied to the file. The default HDFS unmask is generally derived from hdfs-site.xml settings such as dfs.umaskmode or fs.permissions.umask-mode.",
+        "impact": "Potential Impact: SASHDAT files can be read, modified, or deleted by any user with access to the HDFS directory that contains these files."
+    }, {
+        "title": "Problem Note 64003: OpenSSL vulnerabilities exist in the Secure Sockets Layer (SSL) capability in SAS® Foundation products (OpenSSL advisories through 26 February 2019)",
+        "severity": "Severity: Medium",
+        "description": "Description: For SAS® 9.3 and SAS® 9.4 in the z/OS and UNIX operating environments, the SSL capability in SAS® Foundation products includes OpenSSL 1.0.2n. This version of OpenSSL contains security vulnerabilities per a February 26, 2019 advisory on the OpenSSL website.",
+        "impact": "Potential Impact: Under certain conditions, someone might be able to decrypt data."
+    }, {
+        "title": "Problem Note 63978: The SAS® Environment Manager 2.5 server includes multiple, vulnerable third-party libraries",
+        "severity": "Severity: High",
+        "description": "Description: The SAS Environment Manager 2.5 server includes versions of third-party libraries that have known vulnerabilities. Details about these vulnerabilities are available in the following CVE documents:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 63953: SAS® Information Delivery Portal contains a Denial Of Service (DoS) vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: An URL parameter that is improperly validated might enable an attacker to input an artificially large value. This attack can result in unnecessary consumption of the Java heap.",
+        "impact": "Potential Impact: An attacker might be able to perform a Denial Of Service (DoS) attack."
+    }, {
+        "title": "Problem Note 63854: OpenSSL vulnerabilities exist in the SAS® 9.4 Web Server (OpenSSL advisories through 06 March 2019)",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Web Server 9.45, delivered with SAS 9.4M6 (TS1M6), includes Apache HTTP Server 2.4.34 and OpenSSL 1.0.2o. OpenSSL 1.0.2o contains vulnerabilities per a March 6, 2019 advisory that is available on the OpenSSL website.",
+        "impact": "Note: SAS Web Server 9.45 is part of the SAS® 9.4 Integration Technologies middle tier. The web server is included with SAS® BI Server, SAS® Enterprise BI Server, SAS® Visual Analytics, and any SAS® solution that includes a middle tier."
+    }, {
+        "title": "Problem Note 63844: Application parameters are not sanitized in SAS® Web Report Studio",
+        "severity": "Severity: Medium",
+        "description": "Description: Application parameters are not sanitized or validated in SAS Web Report Studio. This behavior might allow a reflected cross-site scripting (XSS) vulnerability to exist.",
+        "impact": "Potential Impact: HTML or JavaScript code can be injected into a web page."
+    }, {
+        "title": "Problem Note 63823: A SAS® Integration Technologies Client security vulnerability exists",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability exists in the SAS Integration Technologies Client in SAS® 9.4M6 (TS1M6).",
+        "impact": "Potential Impact: Sensitive data could be exposed through heap inspection. System information could be obtained through an XML External Entity attack."
+    }, {
+        "title": "Problem Note 63821: SAS® BI portlets contain an arbitrary redirection vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: Requests to SAS BI portlets might be manipulated to cause redirection to an arbitrary website.",
+        "impact": "Potential Impact: Users might be redirected unknowingly to a malicious website."
+    }, {
+        "title": "Problem Note 63673: A security vulnerability currently exists in SAS® Cloud Analytic Services",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability in SAS Cloud Analytic Services exists in SAS® Viya® 3.4.",
+        "impact": "Potential Impact: An attacker with knowledge about this vulnerability and network access to the SAS Viya servers can access restricted data."
+    }, {
+        "title": "Problem Note 63647: The SAS/IntrNet® software htmSQL application contains reflected cross-site scripting vulnerabilities",
+        "severity": "Severity: Medium",
+        "description": "Description: URL parameters are not properly encoded, which might allow a reflected cross-site scripting (XSS) vulnerability to exist. ",
+        "impact": "Potential Impact: A user might unknowingly execute injected code."
+    }, {
+        "title": "Problem Note 63602: The SAS® Web Application Server is vulnerable to CVE-2018-11784",
+        "severity": "Severity: Medium",
+        "description": "Description: The Apache Tomcat versions that underlie the SAS Web Application Server are vulnerable to CVE-2018-11784.",
+        "impact": "Potential Impact: An attacker might exploit the default Tomcat servlet to redirect a user to any arbitrary URL."
+    }, {
+        "title": "Problem Note 63526: SAS® Studio contains cross-site scripting and HTML-injection vulnerabilities",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Studio contains multiple cross-site scripting and HTML-injection vulnerabilities.",
+        "impact": "Potential Impact: Users can unknowingly execute malicious code that is injected into application responses."
+    }, {
+        "title": "Problem Note 63519: SAS® Web Report Studio contains parameter-sanitization vulnerabilites",
+        "severity": "Severity: High",
+        "description": "Description: Improper parameter sanitization might expose SAS Web Report Studio to cross-site scripting vulnerabilities.",
+        "impact": "Potential Impact: Users can unknowingly execute malicious code that is injected into parameter values."
+    }, {
+        "title": "Problem Note 63483: Security headers are missing in the response from the Present Screen feature of the SAS® Visual Analytics App",
+        "severity": "Severity: Medium",
+        "description": "Description: These security headers are missing in the response from the Present Screen feature of the SAS Visual Analytics App:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 63474: IBM Spectrum LSF 9.1.1, 9.1.2, 9.1.3, 10.1.0.3, and 10.1.0.6 contain a security vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: IBM Spectrum LSF9.1.1, 9.1.2, 9.1.3, 10.1.0.3, and 10.1.0.6 could allow a local user to change the job user at job submission time due to improper file permission settings.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 63462: The Search facility used by SAS® Visual Investigator enables connections by weak Transport Layer Security (TLS) ciphers",
+        "severity": "Severity: Low",
+        "description": "Description: The Search facility that is used by SAS Visual Investigator enables connections by weak TLS ciphers.",
+        "impact": "Potential Impact: Confidentiality can be compromised by the use of weak TLS ciphers."
+    }, {
+        "title": "Problem Note 63459: SAS® 9.4 Logon Manager contains a version of JQuery that has reached end-of-life status",
+        "severity": "Severity: Informational",
+        "description": "Description: The version of JQuery that is used by SAS 9.4 Logon Manager has reached end-of-life status.",
+        "impact": "Potential Impact: While the SAS® application is not vulnerable to known vulnerabilities that are related to JQuery, the application might be flagged by automated security scans."
+    }, {
+        "title": "Problem Note 63460: SAS® Studio contains a version of JQuery that has reached end-of-life status",
+        "severity": "Severity: Informational",
+        "description": "Description: The version of JQuery that is used by SAS Studio has reached end-of-life status.",
+        "impact": "Potential Impact: While the SAS® application is not vulnerable to known vulnerabilities that are related to JQuery, the application might be flagged by automated security scans."
+    }, {
+        "title": "Problem Note 63452: SAS® Studio might enable remote code execution via Java reflection",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Studio might enable remote code execution via Java reflection in the /sasexec endpoint.",
+        "impact": "Potential Impact: An authenticated attacker can execute malicious Java code on the server."
+    }, {
+        "title": "Problem Note 63449: The METALIB procedure contains a security vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: A database management system (DBMS) library vulnerability has been identified in the METALIB procedure. Under certain circumstances, PROC METALIB might display the SAS002 encoded password for a DBMS library.",
+        "impact": "Potential Impact: The password could be compromised by an attacker."
+    }, {
+        "title": "Problem Note 63440: SAS® Environment Manager contains an Apache Commons FileUpload library with known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS Environment Manager contains a version of an Apache Commons FileUpload library that might enable remote file manipulation and code execution. See CVE-2016-1000031 for details.",
+        "impact": "Potential Impact: Attackers might be able to write or copy files or to execute malicious code."
+    }, {
+        "title": "Problem Note 63446: SAS® Environment Manager contains an Apache Tomcat security vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: A vulnerability in Apache Tomcat affects SAS Environment Manager. Details about the vulnerability are available in CVE-2018-11784.",
+        "impact": "Potential Impact: Attackers can use a specially crafted URL to cause Apache Tomcat to redirect the user to any URI of the attackers choice. See the CVE details in the link listed above."
+    }, {
+        "title": "Problem Note 63399: SAS® Studio enables access to configuration files for the web application server the /proxy endpoint",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Studio can enable unauthorized access to files outside the scope of the web application via the /proxy endpoint.",
+        "impact": "Potential Impact: Potentially, an attacker can view configuration files with the web application server that are unauthorized for viewing otherwise."
+    }, {
+        "title": "Problem Note 63391: The SAS® 9.4 Web Infrastructure Platform contains a remote-code execution vulnerability",
+        "severity": "Severity: Critical",
+        "description": "Description: The SAS 9.4 Web Infrastructure Platform is vulnerable to remote code execution via a Java de-serialization variant.",
+        "impact": "Potential Impact: Attackers can execute code on the server."
+    }, {
+        "title": "Problem Note 63388: SAS® Studio contains a buffer-overflow vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Studio contains a buffer-overflow vulnerability because of improper input validation.",
+        "impact": "Potential Impact: The user session can be interrupted by a server-side error. However, there is no evidence of any larger-scale impact."
+    }, {
+        "title": "Problem Note 63338: Applications that use the comments service contain a security vulnerability with the use of comments",
+        "severity": "Severity: Medium",
+        "description": "Description: Applications that use the comments service contain a security vulnerability with the use of comments.",
+        "impact": "Potential Impact: An attacker might be able to forge comments."
+    }, {
+        "title": "Problem Note 63306: Use of the SAS/GRAPH® Java device driver or the Java-based graph macros (such as the DS2TREE macro) might result in a security vulnerability issue",
+        "severity": "Severity: Medium",
+        "description": "Description: Use of the SAS/GRAPH Java device driver or any of the Java-based graph macros (such as the DS2TREE macro) might result in a security vulnerability issue. This issue can occur due to the resulting HTML output that attempts to load a JavaScript file via http://www.java.com.   ",
+        "impact": "Potential Impact: A compromise of the third-party JavaScript server and the injection of malicious JavaScript into the original JavaScript."
+    }, {
+        "title": "Problem Note 63264: SAS® Customer Intelligence Studio contains a session-fixation vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: The web application does not properly reset a session value after you log on, which makes the application susceptible to session fixation.",
+        "impact": "Potential Impact: An attacker can gain access to the application through a valid user's authenticated session."
+    }, {
+        "title": "Problem Note 63248: A security vulnerability currently exists in SAS® Plug-ins for Hadoop",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability in SAS Plug-ins for Hadoop exists in SAS® 9.4 and all versions of SAS® Viya®.",
+        "impact": "Potential Impact: An attacker with knowledge about this vulnerability and network access to the Hadoop servers can access restricted data."
+    }, {
+        "title": "Problem Note 63246: The Consul application in SAS® Viya® allows connections with weak encryption ciphers",
+        "severity": "Severity: Medium",
+        "description": "Description: The Consul application in SAS Viya allows connections to be made by using weak encryption ciphers.",
+        "impact": "Potential Impact: Confidentiality or integrity of communication might be compromised."
+    }, {
+        "title": "Problem Note 63197: A security vulnerability currently exists in SAS® Cloud Analytic Services",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability in SAS Cloud Analytic Services exists in SAS® Viya® 3.3.",
+        "impact": "Potential Impact: An attacker with knowledge about this vulnerability and network access to the SAS Viya servers can access restricted data."
+    }, {
+        "title": "Problem Note 63138: The SAS® Environment Manager middle-tier web application allows unauthenticated access to content",
+        "severity": "Severity: Medium",
+        "description": "Description: The SAS Environment Manager middle-tier web application allows unauthenticated access to content.",
+        "impact": "Potential Impact: Sensitive or application-specific information might be disclosed to unauthenticated users."
+    }, {
+        "title": "Problem Note 63139: SAS® Visual Data Mining and Machine Learning contains OpenCV libraries with known vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS Visual Data Mining and Machine Learning contains OpenCV libraries with known vulnerabilities.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 63106: Lack of URL sanitization in SAS® Visual Analytics Graph Builder",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Visual Analytics Graph Builder does not properly perform input validation.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 63100: SAS® Visual Analytics contains a cross-site scripting vulnerability related to request headers",
+        "severity": "Severity: Medium",
+        "description": "Description: A malicious script can be injected into a request header, and returned back to the browser in an error response from SAS Visual Analytics.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 63096: In SAS® Enterprise Case Management, the case.do endpoint contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Enterprise Case Management might allow injection of malicious scripts into the case.do endpoint.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 63030: SAS® Customer Intelligence Studio contains a security vulnerability with attachments",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Customer Intelligence Studio contains a security vulnerability with attachments.",
+        "impact": "Potential Impact: An attacker might be able to upload malicious files by using the attachments functionality in SAS® Marketing Automation, SAS® Marketing Optimization, and SAS® Digital Marketing."
+    }, {
+        "title": "Problem Note 63029: The url_list.txt file in the Search Interface for SAS® Content configuration directory contains an encoded password",
+        "severity": "Severity: High",
+        "description": "CVSS Score: High",
+        "impact": "Description: The url_list.txt file in the Search Interface for SAS Content configuration directory contains the encoded password for the internal account (by default, sassearch@saspw) that is used to provide content to SAS Information Retrieval Studio for indexing. The configuration directory is available in SAS-configuration-directory/lev-N/Web/Applications/SearchInterfacetoSASContent."
+    }, {
+        "title": "Problem Note 62990: SAS® Viya® contains a reflected cross-site scripting vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: SAS Viya allows the injection of malicious scripts via imported files or content.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 62989: SAS® Viya® allows stored cross-site scripting in object names within SASHome or other client applications",
+        "severity": "Severity: High",
+        "description": "Description: The web application might allow the injection of malicious scripts into the name of various objects (for example, data sets or reports).",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 62987: SAS® BI Web Services contains an XML External Entity (XXE) vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: The web application allows document type definitions and external entities from potentially untrustworthy XML.",
+        "impact": "Potential Impact: An attacker might gain unauthorized access to files on the server."
+    }, {
+        "title": "Usage Note 62983: The IBM hardware MCL and z/OS PTFs are not affected by the Meltdown security vulnerability in SAS 9.0 and later",
+        "severity": "There are no known issues with the IBM hardware Microcode Change Level (MCL) and z/OS program temporary fixes (PTFs) for the Meltdown security vulnerability. See SAS Statement Regarding Meltdown/Spectre Vulnerabilities for more information about this vulnerability.",
+        "description": "Currently, SAS is supported when you enable OSPROTECT=1.",
+        "impact": "SAS does not reference the IHAPSA field PSASTAK."
+    }, {
+        "title": "Problem Note 62975: The Add Links option in SAS® Home has a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Home does not validate URLs added using the Add Links option.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code when using an added URL."
+    }, {
+        "title": "Problem Note 62972: SAS® Web Report Studio URL has a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Web Report Studio might allow injection of malicious parameters into its URL.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 62955: SAS® Environment Manager contains vulnerable Apache Struts libraries",
+        "severity": "Severity: High",
+        "description": "Description: SAS Environment Manager contains Apache Struts libraries that have known vulnerabilities. Details about the vulnerabilities are available in the following CVE documents:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 62945: SAS® Infrastructure Data Server update addresses known security vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS® Infrastructure Data Server 9.4, which functions as a PostgreSQL database, is delivered with SAS® Viya® 3.4. The following security concerns related to PostgreSQL are present in this release of the SAS data server: ",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 62914: SAS® Environment Manager Server is affected by multiple Apache Tomcat vulnerabilities",
+        "severity": "Severity: Medium",
+        "description": "Description: Multiple Tomcat vulnerabilities affect SAS Environment Manager. Details about the vulnerabilities are available in the following CVE documents:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 62907: SAS® Studio file shortcuts are vulnerable to cross-site scripting",
+        "severity": "Severity: Medium\n\nDescription: The file-shortcut functionality within SAS Studio is vulnerable to cross-site scripting.\n\nPotential Impact: Users might unknowingly execute malicious code.",
+        "description": "Click the Hot Fix tab in this note to access the hot fix for this issue.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 62906: RabbitMQ allows TLSv1.0 connections",
+        "severity": "Severity: Medium",
+        "description": "Description: The RabbitMQ service allows TLSv1.0 connections that include weak encryption ciphers.",
+        "impact": "Potential Impact: Network communications with this service can be compromised because of known security vulnerabilities with the protocol and associated encryption ciphers."
+    }, {
+        "title": "Problem Note 62908: SAS® Studio contains a stored cross-site scripting vulnerability",
+        "severity": "Severity: Medium\n\nDescription: SAS Studio contains a stored cross-site scripting vulnerability within its Server Files and Folders functionality.\n\nPotential Impact: Users might unknowingly execute malicious code.",
+        "description": "Click the Hot Fix tab in this note to access the hot fix for this issue.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 62876: SAS® Web Report Studio images contain a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Web Report Studio might allow injection of malicious scripts when adding images.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 62678: SAS® Studio contains an SQL Injection vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: The SAS Studio web application might allow injection of arbitrary code into an SQL query.",
+        "impact": "Potential Impact: An attacker might manipulate a query to access or modify data."
+    }, {
+        "title": "Problem Note 62681: SAS® Studio contains an arbitrary file-path vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: The web application might allow unauthorized access to files on the web application server.",
+        "impact": "Potential Impact: Users can gain access to files for which they do not have authorization."
+    }, {
+        "title": "Problem Note 62682: SAS® Model Risk Management and SAS® Enterprise GRC include a version of Apache POI that contains security vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: Apache POI in versions prior to release 3.15 allows remote attackers to cause a denial of service (CPU consumption). The remote attack potentially uses a specially crafted OOXML file, also known as an XML Entity Expansion (XEE) attack.",
+        "impact": "Potential Impact:  There is a total shutdown of the affected resource. The attacker can render the resource completely unavailable."
+    }, {
+        "title": "Problem Note 62666: SAS® Content Server contains a cross-site request forgery (CSRF) vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Content Server contains a CSRF vulnerability. See CVE-2016-6801.",
+        "impact": "Potential Impact: An attacker might hijack the authentication of unspecified victims for requests that create a resource via an HTTP POST request with a missing or crafted Content-Type header."
+    }, {
+        "title": "Problem Note 62667: SAS® Visual Analytics Hub contains a JavaScript Object Notation (JSON) cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: The web application might allow injection of malicious scripts into JSON input.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 62612: SAS® Studio might disclose sensitive information through a Java heap inspection",
+        "severity": "Severity: Medium",
+        "description": "Description: The application might store unencrypted data in memory.",
+        "impact": "Potential Impact: A privileged attacker could gain access to sensitive data, such as passwords."
+    }, {
+        "title": "Problem Note 62611: SAS® Studio contains an HTTP response-splitting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: An attacker might be able to manipulate HTTP responses from the application, which can facilitate attacks such as cross-site scripting or cache poisoning.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code or receive malicious content in HTTP responses to their browser. "
+    }, {
+        "title": "Problem Note 62573: SAS® BI portlets are vulnerable to arbitrary URL redirection",
+        "severity": "Severity: Medium",
+        "description": "Description: The web application allows redirection to arbitrary web sites via URL manipulation.",
+        "impact": "Potential Impact: Users might unknowingly be redirected to a malicious web site."
+    }, {
+        "title": "Problem Note 62571: SAS® Information Delivery Portal has an information disclosure vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: The web application discloses server information within certain HTTP responses.",
+        "impact": "Potential Impact: An attacker might obtain host-name information about the SAS server."
+    }, {
+        "title": "Problem Note 62542: SAS® Studio contains an XML External Entity (XXE) vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: The web application allows document type definitions and external entities from potentially untrustworthy XML code.",
+        "impact": "Potential Impact: An attacker might gain unauthorized access to files on the server."
+    }, {
+        "title": "Problem Note 62540: SAS® Information Delivery Portal contains a session-fixation vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: The web application does not properly reset a session value after you log on, which makes the application susceptible to session fixation.",
+        "impact": "Potential Impact: An attacker can gain access to the application through a valid user's authenticated session."
+    }, {
+        "title": "Problem Note 62541: SAS® Studio contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: The web application might allow injection of malicious scripts into input fields.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 62511: SAS® Environment Manager contains a stored cross-site scripting vulnerability",
+        "severity": "Severity: Low\nDescription: The web application might allow injection of malicious scripts into an input field within the user management area of the application, which is accessible only to administrators and authorized users.",
+        "description": "Potential Impact: A user with administrative rights might unknowingly execute malicious code.",
+        "impact": "Click the Hot Fix tab in this note to access the hot fix for this issue."
+    }, {
+        "title": "Problem Note 62513: SAS® Environment Manager is vulnerable to jackson-databind vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS Environment Manager is susceptible to the following jackson-databind vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 62499: In SAS® Web Report Studio, the section name field contains a cross-site scripting vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Web Report Studio might allow injection of malicious scripts into the section name field.",
+        "impact": "Potential Impact: Malicious code might be executed if users click on a URL that has been specially crafted by an attacker."
+    }, {
+        "title": "Problem Note 62494: SAS® Visual Analytics contains an XML External Entity (XXE) vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: The SAS Visual Analytics application accepts XML documents and processes external entities defined therein, within the View Report area of the application.",
+        "impact": "Potential Impact: This vulnerability might be exploited to gain unauthorized access to files on the file system or to perform a Denial of Service attack."
+    }, {
+        "title": "Problem Note 62425: A cross-site scripting vulnerability exists in the SAS® BI Dashboard Adobe Flash component",
+        "severity": "Severity: Medium",
+        "description": "Description: The DashboardRuntime.swf component of SAS BI Dashboard contains a cross-site scripting vulnerability.",
+        "impact": "Potential Impact: An attacker can inject malicious code that, in turn, can be executed unknowingly by a user."
+    }, {
+        "title": "Problem Note 62413: The SAS® Forecast Studio client heap dump contains encoded passwords",
+        "severity": "Severity: High",
+        "description": "Description: The SAS Forecast Studio application stores sensitive information (for example, user passwords) in memory. ",
+        "impact": "Potential Impact: Encoded passwords are visible within Java heap dumps."
+    }, {
+        "title": "Problem Note 62407: SAS® Customer Intelligence Studio contains a security vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Customer Intelligence Studio contains a data-integrity security vulnerability.",
+        "impact": "Potential Impact: An attacker might be able to access object definitions."
+    }, {
+        "title": "Problem Note 62384: Platform Process Manager 10.1 includes a Java Runtime Environment (JRE) with known vulnerabilities",
+        "severity": "Severity: Critical",
+        "description": "Description: IBM Spectrum Process Manager contains a vulnerable Java Runtime Environment (JRE) that might cause multiple vulnerabilities.",
+        "impact": "Potential Impact: Users might be exposed to multiple vulnerabilities."
+    }, {
+        "title": "Problem Note 62379: SAS® Workflow Studio is dependent on a version of Apache POI that contains a security vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: SAS Workflow Studio contains a dependency on Apache POI. Versions of Apache POI prior to release 3.15 allow remote attackers to cause a denial of service (CPU consumption). The remote attack potentially uses a specially crafted OOXML file, also known as an XML Entity Expansion (XEE) attack.",
+        "impact": "Potential Impact: There is a total shutdown of the affected resource. The attacker can render the resource completely unavailable."
+    }, {
+        "title": "Problem Note 62250: SAS® Customer Intelligence Studio contains a security vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Customer Intelligence Studio contains a data-integrity security vulnerability.",
+        "impact": "Potential Impact: An attacker might create unwanted objects under a foreign account."
+    }, {
+        "title": "Problem Note 62236: A security vulnerability currently exists in SAS® Cloud Analytic Services",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability in SAS® Cloud Analytic Services exists in SAS® Viya® 3.3.",
+        "impact": "Potential Impact: An attacker with knowledge about this vulnerability and network access to the SAS Viya servers can access restricted data."
+    }, {
+        "title": "Problem Note 62232: SAS® Anti-Money Laundering contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium\nDescription: URL parameters are not validated, which allows a reflected cross-site scripting (XSS) vulnerability to exist. \nPotential Impact: HTML or JavaScript code could be injected into a web page.",
+        "description": "Click the Hot Fix tab in this note to access the hot fix for this issue.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 62207: The query web server in SAS® Information Retrieval Studio allows HTTP TRACE method requests",
+        "severity": "Severity: Low",
+        "description": "Description: The SAS Information Retrieval Studio query web server, which by default listens on port 10761, allows HTTP TRACE method requests.",
+        "impact": "Potential Impact: An attacker might be able to view sensitive diagnostic information."
+    }, {
+        "title": "Problem Note 62190: OpenSSL vulnerabilities exist in the SAS® 9.4 Web Server (OpenSSL advisories through 27th March 2018)",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS 9.4 Web Server includes OpenSSL 1.0.2l and earlier (dependent on the maintenance level of your SAS 9.4 software). OpenSSL 1.0.2l contains vulnerabilities per a March 27, 2018 advisory on the OpenSSL website.",
+        "impact": "Note: SAS 9.4 Web Server is part of the SAS® 9.4 Integration Technologies middle tier. The web server is included with SAS® BI Server, SAS® Enterprise BI Server, SAS® Visual Analytics, and any SAS® solution that includes a middle tier."
+    }, {
+        "title": "Problem Note 62191: In SAS® Web Report Studio, the Text object contains a cross-site scripting vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Web Report Studio might allow injection of malicious scripts into the Text object.",
+        "impact": "Potential Impact: Malicious code might be executed if users click on a URL that has been specially crafted by an attacker."
+    }, {
+        "title": "Problem Note 62192: In SAS® Web Report Studio, the report name field contains a cross-site scripting vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Web Report Studio might allow injection of malicious scripts into the report name field.",
+        "impact": "Potential Impact: Malicious code might be executed if users click on a URL that has been specially crafted by an attacker."
+    }, {
+        "title": "Problem Note 62182: Platform Web Services for SAS® contains FasterXML jackson-databind files with known vulnerabilities",
+        "severity": "Severity: Critical",
+        "description": "Description: The web application might allow for unauthenticated remote code execution.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 62184: A SAS/CONNECT® server security vulnerability exists in SAS® Viya® 3.3",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability in the SAS/CONNECT server exists in SAS Viya 3.3.",
+        "impact": "Potential Impact: An attacker who has knowledge of this vulnerability and network access to the SAS Viya servers can access restricted data."
+    }, {
+        "title": "Problem Note 62144: SAS® Environment Manager contains security vulnerabilities (multiple CVEs)",
+        "severity": "Severity: High",
+        "description": "Description: Apache Tomcat 8.5.13 and 8.0.36 contain multiple security vulnerabilities.",
+        "impact": "The SAS Environment Manager web application server that is available in the fifth maintenance release of SAS® 9.4 (TS1M5) is based on Apache Tomcat 8.5.13. This version of Tomcat includes the following security vulnerabilities:"
+    }, {
+        "title": "Problem Note 62115: A programming run-time server security vulnerability exists in SAS® Viya® 3.3",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability in the programming run-time server exists in SAS Viya 3.3.",
+        "impact": "Potential Impact: An attacker who has knowledge of this vulnerability and network access to the SAS Viya servers can access restricted data."
+    }, {
+        "title": "Problem Note 62113: SAS® Visual Investigator contains an information disclosure security vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: A security vulnerability exists in SAS® Visual Investigator 10.3.1.",
+        "impact": "Potential Impact: An authenticated user who is not authorized to perform any functions in SAS Visual Investigator can still access critical endpoints and retrieve sensitive information. "
+    }, {
+        "title": "Problem Note 62112: A Threaded Kernel IOM security vulnerability exists in SAS® Viya® 3.3",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability in the Threaded Kernel IOM package exists in SAS Viya 3.3.",
+        "impact": "Potential Impact: An attacker who has knowledge of this vulnerability and network access to the SAS Viya servers can access restricted data."
+    }, {
+        "title": "Problem Note 62068: PostgreSQL security concerns exist in SAS® Data Server 9.4.13, which is delivered with SAS® Viya® 3.3",
+        "severity": "Severity: High",
+        "description": "Description: SAS data server 9.4.13, which functions as a PostgreSQL database, is delivered with SAS Viya 3.3. The following security concerns related to PostgreSQL are present in this release of the SAS data server:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 62039: Lack of URL sanitization in SAS® Contextual Analysis",
+        "severity": "Title: Lack of URL sanitization in SAS Contextual Analysis",
+        "description": "Severity: Medium",
+        "impact": "Description: SAS Contextual Analysis URL accepts JavaScript code as a parameter, and executes the JavaScript code on the browser."
+    }, {
+        "title": "Problem Note 62003: A security vulnerability currently exists in SAS® Visual Data Mining and Machine Learning",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability in SAS® Visual Data Mining and Machine Learning exists in SAS® Viya® 3.2 and SAS Viya 3.3.",
+        "impact": "Potential Impact: An attacker with knowledge about this vulnerability and network access to the SAS Viya servers can access restricted data."
+    }, {
+        "title": "Problem Note 61916: The Export to Excel feature in SAS® Enterprise GRC and SAS® Model Risk Management contains security vulnerabilities",
+        "severity": "Severity: High\nDescription: The Export to Excel feature of the web application might enable injection of malicious scripts into a cell of a Microsoft Excel spreadsheet.\nPotential Impact: Users might unknowingly execute malicious code.",
+        "description": "Click the Hot Fix tab in this note to access the hot fix for this issue.",
+        "impact": "With this fix, the web application escapes the text for any cell whose value begins with one of the following characters:"
+    }, {
+        "title": "Problem Note 61902: SAS® Web Report Studio contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: Using web browsers with low security settings might make SAS Web Report Studio vulnerable to cross-site scripting.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 61904: Improper error handling might occur in SAS® Web Report Studio",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Web Report Studio might display error messages that include content that should not be generally available.",
+        "impact": "Potential Impact: Error messages might include information that could be used maliciously."
+    }, {
+        "title": "Problem Note 61880: The SAS® 9.4 Logon Manager time-out page is vulnerable to injection of HTML code",
+        "severity": "Severity: High",
+        "description": "Description: It is possible to inject HTML code into a URL that is sent to SAS 9.4 Logon Manager in such a way that the code is rendered in the HTTP response. ",
+        "impact": "Potential Impact:  An attacker can modify the web page that is viewed by the user, allowing the potential for a variety of malicious exploits."
+    }, {
+        "title": "Problem Note 61866: SAS® Enterprise Miner™ desktop client has an information-disclosure vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: SAS Enterprise Miner desktop client stores sensitive information in memory that might be viewable by unauthorized users.",
+        "impact": "Potential Impact: Unauthorized users might exploit the vulnerability for access to sensitive data. "
+    }, {
+        "title": "Problem Note 61851: SAS® Event Stream Processing Studio contains a cross-site scripting vulnerability and a consumption of CPU resources vulnerability",
+        "severity": "Severity: Medium\nDescription: SAS Event Stream Processing Studio might allow injection of malicious scripts into input fields or cause excessive consumption of CPU resources.\nPotential Impact: Users might unknowingly execute malicious code.",
+        "description": "Click the Hot Fix tab in this note to access the hot fix for this issue.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 61852: SAS® Event Stream Manager contains a cross-site scripting vulnerability and a consumption of CPU resources vulnerability",
+        "severity": "Severity: Medium\nDescription: The SAS Event Stream Manager might allow injection of malicious scripts into input fields or cause excessive consumption of CPU resources.\nPotential Impact: Users might unknowingly execute malicious code.",
+        "description": "Click the Hot Fix tab in this note to access the hot fix for this issue.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 61825: SAS® Web Report Studio contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: The Select Image dialog box in SAS Web Report Studio is vulnerable to HTML injection in the returned page. This issue has been reported for Google Chrome.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 61796: Known security vulnerabilities exist within the libxml library that is used by SAS® Text Analytics",
+        "severity": "Severity: High",
+        "description": "Description: The third-party libxml library that is used for document parsing by SAS® Text Analytics software has known security vulnerabilities. ",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 61801: SAS® Metadata Server contains a denial of service vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Metadata Server is vulnerable to an attack whereby a user might request that the metadata server execute code that might cause denial of service.  ",
+        "impact": "Potential Impact: Users connecting to SAS Metadata Server might knowingly or unknowingly execute malicious code. "
+    }, {
+        "title": "Problem Note 61797: Known security vulnerabilities exist within the libxslt library that is used by SAS® software",
+        "severity": "Severity: Medium",
+        "description": "Description: The third-party libxslt library that is used by SAS software has know security vulnerabilities. ",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 61798: Known security vulnerabilities exist within the libpcre library that is used by SAS® software",
+        "severity": "Severity: High",
+        "description": "Potential Impact: Users might unknowingly execute malicious code.",
+        "impact": "Description: The third-party libpcre library that is used by SAS software has known security vulnerabilities."
+    }, {
+        "title": "Problem Note 61803: SAS® Enterprise Case Management contains a cross-site scripting security vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Enterprise Case Management contains a cross-site scripting security vulnerability in the timeout page functionality.",
+        "impact": "Potential Impact: A user may unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 61802: SAS® Enterprise Case Management contains an html injection vulnerability",
+        "severity": "Severity: Low",
+        "description": "Description: SAS Enterprise Case Management contains an html injection vulnerability in its custom properties upload capability.",
+        "impact": "Potential Impact: A user may unknowingly execute malicious code"
+    }, {
+        "title": "Problem Note 61767: A denial of service vulnerability occurs in SAS® Metadata Server after interactions with SAS® Customer Intelligence Studio",
+        "severity": "Severity: High",
+        "description": "Description: SAS Metadata Server might be subject to a denial of service vulnerability by an attacker with user-level permissions. This issue occurs when the user configures a specially formatted email in SAS Customer Intelligence Studio.",
+        "impact": "Potential Impact: SAS Customer Intelligence Studio users might knowingly or unknowingly execute malicious operations."
+    }, {
+        "title": "Problem Note 61773: FasterXML jackson-databind vulnerability fixes for versions 2.95 and earlier",
+        "severity": "Severity: High",
+        "description": "Description: FasterXML jackson-databind, versions before 2.9.5 have several security vulnerabilities",
+        "impact": "Potential Impact: These vulnerabilities could allow malicious code execution or unauthorized system access. "
+    }, {
+        "title": "Problem Note 61728: SAS® Help Viewer for the Web is vulnerable to information leakage",
+        "severity": "Severity: High",
+        "description": "Potential Impact: Sensitive information might be leaking.",
+        "impact": "Description: SAS Help Viewer for the Web contains an information leakage vulnerability."
+    }, {
+        "title": "Problem Note 61726: SAS® Customer Intelligence Studio contains a security vulnerability",
+        "severity": "Severity: High",
+        "description": "Description: SAS Customer Intelligence Studio contains a cross-site scripting security vulnerability.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 61700: OpenSSL vulnerabilities exist in the Secure Sockets Layer (SSL) capability in SAS® Foundation products (OpenSSL advisories through 02 November 2017)",
+        "severity": "Severity: Medium",
+        "description": "Description: For SAS® 9.3 and SAS® 9.4 in the z/OS and UNIX operating environments, the SSL capability in SAS® Foundation products includes OpenSSL 1.0.2j, which contains security vulnerabilities. The vulnerabilities are described here: OpenSSL Security Advisory (02 Nov 2017)",
+        "impact": "Potential Impact: Under certain conditions, someone might be able to decrypt data."
+    }, {
+        "title": "Problem Note 61582: SAS® Anti-Money Laundering contains cross-site scripting security vulnerabilities",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Anti-Money Laundering contains cross-site scripting security vulnerabilities.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 61480: SAS® Web Server uses an end-of-life version of the Apache 2.2 Server",
+        "severity": "Severity: High",
+        "description": "Potential Impact: Because Apache 2.2 is no longer being updated due to its end-of-life status, it might be vulnerable to new security vulnerabilities.",
+        "impact": "Description: SAS Web Server includes Apache 2.2, which was declared as end-of-life status on January 1, 2018 by the open-source community (as announced at httpd.apache.org/.)"
+    }, {
+        "title": "Problem Note 61470: SAS® Event Stream Processing Studio contains a stored cross-site scripting security vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Event Stream Processing Studio contains a stored cross-site scripting security vulnerability.",
+        "impact": "Click the Hot Fix tab in this note to access the hot fix for this issue."
+    }, {
+        "title": "Problem Note 61332: SAS® Enterprise Case Management contains a comma separated security injection vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Enterprise Case Management contains a comma separated security injection vulnerability in its interface with Microsoft Excel.",
+        "impact": "Potential Impact: A user might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 61274: A cross-site scripting vulnerability has been identified in SAS® Web Report Studio",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-site scripting vulnerability has been identified in SAS Web Report Studio.",
+        "impact": "CVSS score for this issue: 4.3"
+    }, {
+        "title": "Problem Note 61244: SAS® Web Application Server contains security vulnerabilities (multiple CVEs)",
+        "severity": "Severity: High",
+        "description": "Description: Releases of SAS Web Application Server up through the fourth maintenance release of SAS® 9.4 (TS1M4) are based on versions of Apache Tomcat 7 that are earlier than Tomcat 7.0.82. Those versions of Tomcat 7 contain the following security vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 61227: SAS® Workflow Administrator contains a cross-site scripting security vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Workflow Administrator might contain a cross-site scripting security vulnerability.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 61211: A cross-site scripting vulnerability has been identified in SAS® Web Report Studio",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-site scripting vulnerability has been identified in SAS Web Report Studio.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 61175: SAS® Web Infrastructure Platform Database update or upgrade addresses known security vulnerabilities",
+        "severity": "Severity: Medium",
+        "description": "Description: The following versions of PostgreSQL are used as the underlying technology for the SAS Web Infrastructure Platform Data Server:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 60809: A cross-site scripting vulnerability exists in SAS® Environment Manager",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-site scripting vulnerability exists in the role administration functionality of SAS Environment Manager.",
+        "impact": "Potential Impact: A user may unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 60695: A cross-site scripting vulnerability exists in the SAS® Environment Manager middle tier",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-site scripting vulnerability exists in the Director function of the SAS Environment Manager middle-tier component.",
+        "impact": "Potential Impact: A user might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 60498: Platform Suite for SAS® contains a security vulnerability that enables unauthorized users to escalate their privileges",
+        "severity": "Severity: High",
+        "description": "Description: The Platform LSF (Load Sharing Facility) product in Platform Suite for SAS contains a security issue. See the IBM Security Bulletin: Privilege Escalation / User Impersonation affects IBM Platform LSF and IBM Spectrum LSF for more information.",
+        "impact": "Potential Impact: Users might be able to escalate their privileges."
+    }, {
+        "title": "Problem Note 60437: A cross-site scripting vulnerability exists in the Preferences web application for SAS® 9.3 TS1M0 and later",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-site scripting vulnerability exists in the Preferences web application because of the lack of sanitization in URL parameters.",
+        "impact": "Potential Impact: A user can unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 60436: A link-injection vulnerability exists in the SAS® Stored Process web application",
+        "severity": "Severity: Medium",
+        "description": "Description: A link-injection vulnerability exists in the SAS Stored Process web application.",
+        "impact": "Potential Impact: This vulnerability, potentially, can allow the insertion of a hyperlink to a malicious site into a response from the application. "
+    }, {
+        "title": "Problem Note 60408: The JCraft and JSch libraries that reside in the SAS® Environment Manager server and agent are vulnerable to directory traversal",
+        "severity": "Severity: Medium",
+        "description": "Description: The SAS Environment Manager server and agent contain JCraft and JSch libraries that are vulnerable to directory traversal (CVE-2016-5725).",
+        "impact": "Potential Impact: Users might gain unauthorized access to the file system."
+    }, {
+        "title": "Problem Note 60381: A cross-site scripting vulnerability exists in the SAS® Environment Manager administrative application",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-site scripting vulnerability exists in SAS Environment Manager on the List Users page of the administrative application.",
+        "impact": "Potential Impact: A user can unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 60362: The SAS® Visual Analytics Hub allows uploading of potentially malicious executable files in the comments (CVE-2014-5454)",
+        "severity": "Severity: Medium",
+        "description": "Description: The SAS Visual Analytics Hub allows uploading of potentially malicious executable files in the comments. For more information, see CVE-2014-5454.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 60265: Arbitrary redirection from SAS® 9.4 Logon Manager results in a phishing vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: Arbitrary redirection from the logoff URL in SAS 9.4 Logon Manager results in a phishing vulnerability.",
+        "impact": "Potential Impact: It is possible that the logon service can be manipulated to redirect users to malicious URLs in order to capture their credentials or to otherwise compromise the system."
+    }, {
+        "title": "Problem Note 60261: An arbitrary redirection vulnerability has been identified in SAS® Visual Analytics",
+        "severity": "Severity: Medium",
+        "description": "Description: The SAS Visual Analytics Transport web application contains an arbitrary redirection vulnerability.",
+        "impact": "Potential Impact: Users might unknowingly be directed to a malicious site."
+    }, {
+        "title": "Problem Note 60210: A security vulnerability currently exists in the sas-tkcore package SAS® Viya™ 3.1 and SAS® Viya™ 3.2",
+        "severity": "Severity: High",
+        "description": "Description: A security vulnerability in the sas-tkcore package exists in SAS Viya 3.1 and SAS Viya 3.2.",
+        "impact": "Potential Impact: An attacker with knowledge of this vulnerability and network access to the SAS Viya servers can access restricted data."
+    }, {
+        "title": "Problem Note 60147: An Apache Struts security vulnerability exists in SAS® Profitability Management 2.3",
+        "severity": "Severity: Medium",
+        "description": "Description: Version 1.3.8.0_SAS_20121211183332 of Apache Struts, which is included with release 2.3 of SAS Profitability Management, contains the following vulnerabilities:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 60111: The SAS® Environment Manager agent contains a vulnerable Apache Xalan component",
+        "severity": "Severity: High",
+        "description": "Description:The SAS Environment Manager agent contains a vulnerable Apache Xalan component. See CVE-2014-0107 for more details.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 60093: A cross-site scripting vulnerability has been identified in the modern version of SAS® Visual Analytics Viewer",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-site scripting vulnerability has been identified in the modern version of SAS Visual Analytics Viewer. As a workaround until this issue is addressed, individual users can select Classic in their Default Appearance settings. An administrator can also set a global property to force the use of the classic version. This global property overrides individual preferences. For information about how to set the global property, see the SAS® Visual Analytics Administration Guide.",
+        "impact": "Potential Impact: A user might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 59410: A cross-site scripting vulnerability has been identified in the SAS® Web Report Studio savePageSetup.do endpoint",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-site scripting vulnerability has been identified in the SAS Web Report Studio savePageSetup.do endpoint.",
+        "impact": "Potential Impact: A user might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 59404: A vulnerability on authorizations to metadata table objects exists in SAS® Metadata Server",
+        "severity": "Severity: Medium",
+        "description": "Description: A vulnerability on authorizations to metadata table objects has been identified.",
+        "impact": "Potential Impact: This issue could result in modification of permissions, allowing a user to gain unauthorized access to data."
+    }, {
+        "title": "Problem Note 59078: Flash-based components can be manipulated by an external configuration file",
+        "severity": "Severity: Medium",
+        "description": "Description: Flash-based components within SAS® web applications can be manipulated by the user through specification of an external configuration file.",
+        "impact": "Potential Impact: An unauthorized user might gain access to data uploaded or provided by authorized users."
+    }, {
+        "title": "Problem Note 59019: SAS® Environment Manager middle tier web applications allow unauthorized access to certain URLs",
+        "severity": "Severity: Medium",
+        "description": "Description:SAS® Environment Manager middle tier web applications allow unauthorized access to certain URLs.",
+        "impact": "Potential Impact: A user lacking appropriate role authorization might gain access to the web application."
+    }, {
+        "title": "Problem Note 59014: The SAS® solutions web client documentation contains a cross-site scripting vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: The SAS documentation facility included with multiple web clients of SAS solutions contains a cross-site scripting vulnerability",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 58776: A cross-site scripting vulnerability exists in the SAS® web applications",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-site scripting vulnerability exists within a common Web Infrastructure Platform component that is used by multiple SAS web applications. This issue can surface in a security scan for applications including, but not limited to, the Web Administration Console and the SAS® Stored Process web application.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 58754: SAS® Enterprise GRC and SAS® Model Risk Management contain several cross-site scripting and information disclosure security vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS Enterprise GRC and SAS Model Risk Management contain cross-site scripting and information disclosure security vulnerabilities.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 58686: SAS® Environment Manager exhibits a session-fixation vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Environment Manager exhibits a session-fixation vulnerability.",
+        "impact": "Potential Impact: An attacker might be able to hijack a user's session and gain access to the application."
+    }, {
+        "title": "Problem Note 58692: SAS® Web Report Studio is vulnerable to a cross-site scripting variant",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Web Report Studio has a vulnerability to a variant of cross-site scripting.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 58422: SAS® Enterprise GRC and SAS® Model Risk Management contain cross-site scripting security vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: SAS Enterprise GRC and SAS Model Risk Management contain cross-site scripting security vulnerabilities.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 58239: SAS® Customer Intelligence contains security vulnerabilities that have been identified by IBM Security AppScan",
+        "severity": "Severity: Medium",
+        "description": "Description: IBM Security AppScan reported several security vulnerabilities with SAS Customer Intelligence.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 58196: The Apache Groovy library is vulnerable to remote code execution",
+        "severity": "Severity: Critical",
+        "description": "Description: The Apache Groovy library, which is used by many SAS® products, is vulnerable to remote code execution. For information about exposure and fixes, see SAS Statement Regarding the Java Deserialization Vulnerability.",
+        "impact": "Potential Impact: An attacker might execute malicious code on the server."
+    }, {
+        "title": "Problem Note 58189: Potential security vulnerability with the email feature in SAS® Visual Analytics",
+        "severity": "Severity: Low",
+        "description": "Description: An email validation vulnerability has been identified in SAS Visual Analytics.",
+        "impact": "Potential Impact: A user might potentially execute malicious code that is transmitted via email from SAS Visual Analytics."
+    }, {
+        "title": "Problem Note 58173: ImageMagick software creates a security vulnerability in SAS® Marketing Operations Management",
+        "severity": "Severity: High",
+        "description": "Description: SAS Marketing Operations Management uses ImageMagick software to generate previews and thumbnail images in Digital Library. ImageMagick contains a security vulnerability that might affect SAS Marketing Operations Management users who have the credentials to access the application.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 57908: SAS® Mobile BI contains an XML External Entity (XXE) processing vulnerability",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Mobile BI contains an XML External Entity (XXE) processing vulnerability through the SAS® Transport Services layer.",
+        "impact": "Potential Impact: An attacker might gain unauthorized access to the file system."
+    }, {
+        "title": "Problem Note 57772: A cross-frame scripting vulnerability exists in SAS® Web Report Studio",
+        "severity": "Severity: Medium",
+        "description": "Description: A cross-frame scripting vulnerability exists in SAS Web Report Studio.",
+        "impact": "Potential Impact: Users may unknowingly execute malicious code"
+    }, {
+        "title": "Problem Note 57612: The Apache Commons Collections library is vulnerable to remote code execution",
+        "severity": "Severity: Critical",
+        "description": "Description: The Apache Commons Collections library, which is used by many SAS® products, is vulnerable to remote code execution. For information about exposure and fixes, see SAS Statement Regarding the Java Deserialization Vulnerability.",
+        "impact": "Potential Impact: An attacker might execute malicious code on the server."
+    }, {
+        "title": "Problem Note 57178: SAS® Flex Application Themes contain a vulnerable Apache Xalan JAR file",
+        "severity": "Severity: High",
+        "description": "Description: SAS Flex Application Themes contain an Apache Xalan JAR file that is known to have security vulnerabilities.",
+        "impact": "Potential Impact: There is no known impact to SAS software, but this library might be flagged by security scanners."
+    }, {
+        "title": "Problem Note 57130: SAS® Environment Manager has known high-severity security issues",
+        "severity": "Severity: High",
+        "description": "Description: SAS Environment Manager has several known high-severity security issues. To address these issues, updates are required to multiple components that are used by SAS Environment Manager. These components include Apache Tomcat, Apache ActiveMQ, and underlying Java libraries.",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 57018: Known security vulnerabilities exist in Apache ActiveMQ",
+        "severity": "Severity: High",
+        "description": "Description: The ActiveMQ JAR file bundle that is included with SAS® software has known security vulnerabilities. For more information, see the following:",
+        "impact": "No Content"
+    }, {
+        "title": "Problem Note 56560: SAS® Content Server is vulnerable to an XML external entity exploitation (CVE-2015-1833)",
+        "severity": "Severity: Medium",
+        "description": "Description: SAS Content Server is vulnerable to an XML external entity exploitation, as described in the Vulnerability Summary for CVE-2015-1833.",
+        "impact": "Potential Impact: An attacker might gain unauthorized access to files."
+    }, {
+        "title": "Problem Note 56326: IBM Security AppScan might return a high-priority report \"Reflected XSS method GET\" in SAS® Workflow Administrator 1.4 and 1.4_M1",
+        "severity": "Severity: Medium",
+        "description": "Description: When you access the SAS Workflow Administrator web application, you might receive a high-priority Reflected XSS method GET report from security scanners such as IBM Security AppScan. This report indicates that you might have reflected cross-site scripting vulnerabilities that allow escape characters and active JavaScript to potentially be passed and processed on the server without sufficient control and filtering.",
+        "impact": "Potential Impact: Users might unknowingly execute malicious code."
+    }, {
+        "title": "Problem Note 56119: SAS® Environment Manager contains the Hyperic Spring Library 3.0.4 with known security vulnerabilities",
+        "severity": "Severity: High",
+        "description": "Description: Hyperic Spring Library 3.0.4, which is used in SAS Environment Manager, has known security vulnerabilities. For details, see the following:",
+        "impact": "No Content"
+    }]
+}

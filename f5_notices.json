@@ -1,0 +1,363 @@
+{
+    "notices": [{
+        "title": "K00670545: BIGIQ CM cannot create One-connect profiles on Managed Devices",
+        "description": "Description\nIt is not possible to create a OneConnect profile with a BIG-IQ\n\nOneConnect profiles can be imported from managed devices\nAn imported OneConnect profile can be cloned and deployed\nOneConnect profile cannot be modified after being imported"
+    }, {
+        "title": "K79425843: Script for external monitor is not available on External Program option in the configuration Utility",
+        "description": "Description\nScript for external monitor is not available on External Program option in the configuration Utility\n\n"
+    }, {
+        "title": "K34000142: Overview of Route Advertisement",
+        "description": "Description\n\nRoute Advertisement is a feature of Virtual Addresses whereby their value can be injected in the kernel routing table of the BIG-IP. This is typically used to allow the BIG-IP to make routing decisions based on them and more importantly, advertise them as an address or network out to routing peers so that those remote devices route traffic for that destination to the BIG-IP. With route advertisement, routes can be dynamically added or removed from the BIG-IP's kernel depending on the status of the Virtual Address.\n\nIn versions prior to 13, there are only two states, enabled and disabled. The behavior (including how to configure to advertise the information via BGP) can be found in K14267/K15923612.\n\nThere are four states a virtual address can be in: Unknown, Enabled, Disabled and Offline. When the virtual address is in Unknown or Enabled state, its route will be added to the kernel routing table. When the virtual address is in Disabled or Offline state, its route will be removed if present and will not be added if not already present.\n\n"
+    }, {
+        "title": "K66202843: How the DNS Server Order Works when using multiple servers",
+        "description": "Description\nHow does the BIG-IP resolve names when multiple DNS servers are configured\n\n"
+    }, {
+        "title": "K42061352: How to perform a Manual Failover of a BIG-IP High Availability Traffic Group from the Webui",
+        "description": "Description\n\n"
+    }, {
+        "title": "K11842240: Receiving error missing program name",
+        "description": "Description\nYou are seeing an error similar to the following in /var/log/gtm:\n\n"
+    }, {
+        "title": "K26215013: Unable to upload software image larger than 2GB using the Configuration Utility",
+        "description": "Description\n\n\nWhen attempting to import a software image file over 2GB in size via Configuration Utility (GUI), it may not show any progress in \"progress bar\", and the upload will fail.\n\n"
+    }, {
+        "title": "K82348433: Advanced shell access for non-administrator users may be restricted after an upgrade",
+        "description": "Description\n\n\nAttempting to configure Advanced Shell access for resource administrator users throws an error:\n\n\t\t\t"
+    }, {
+        "title": "K25417808: The load sys config merge verify command may fail with an error",
+        "description": "Running the load sys config merge verify command may produce an error.\n\n"
+    }, {
+        "title": "K52494142: GNU C Library (glibc) vlunerability CVE-2016-10228",
+        "description": "The iconv program in the GNU C Library (aka glibc or libc6) 2.31 and earlier, when invoked with multiple suffixes in the destination encoding (TRANSLATE or IGNORE) along with the -c option, enters an infinite loop when processing invalid multi-byte input sequences, leading to a denial of service. (CVE-2016-10228)\n\n"
+    }, {
+        "title": "K16008: Overview of BIG-IP pool status (11.x - 16.x)",
+        "description": "This article applies to BIG-IP 11.x through 16.x. For information about other versions, refer to the following article:\n\nK10516: Overview of BIG-IP pool status (9.x - 10.x)"
+    }, {
+        "title": "K15113: BIG-IQ hotfix and point release matrix",
+        "description": "The following table lists the latest hotfix and point release information for corresponding BIG-IQ releases. The hotfixes and point releases are available for download on the F5 Downloads site or by selecting the links in the Latest hotfix and point release column in the following table.\n\n"
+    }, {
+        "title": "K73135553: Error Message: 0107185a:4: Warning generated, for version 13.1.0 or greater : Disable virtual server /<partition>/<virtual> because it has access profile attached and its associated traffic group ...",
+        "description": "Error Message\n\n"
+    }, {
+        "title": "K14378: Information required when opening a support case for the BIG-IQ system",
+        "description": "Note: To find out about the information F5 requires when opening a support case for other F5 products, refer to K2633: Instructions for submitting a support case to F5.\n\n"
+    }, {
+        "title": "K96223611: BIND vulnerability CVE-2021-25215",
+        "description": "In BIND 9.0.0 -> 9.11.29, 9.12.0 -> 9.16.13, and versions BIND 9.9.3-S1 -> 9.11.29-S1 and 9.16.8-S1 -> 9.16.13-S1 of BIND Supported Preview Edition, as well as release versions 9.17.0 -> 9.17.11 of the BIND 9.17 development branch, when a vulnerable version of named receives a query for a record triggering the flaw described above, the named process will terminate due to a failed assertion check. The vulnerability affects all currently maintained BIND 9 branches (9.11, 9.11-S, 9.16, 9.16-S, 9.17) as well as all other versions of BIND 9. (CVE-2021-25215)\n\n"
+    }, {
+        "title": "K45232137: Unable to accept the violation",
+        "description": "Description\n\n\nASM blocking the request with \"Null in request\" violation.\nHowever in the event log ‘Accept ‘ option is greyed out for this violation.\n \n\n"
+    }, {
+        "title": "K54288604: How to migrate from ELA \"Load\" to \"Catalog\" licenses",
+        "description": "No Content"
+    }, {
+        "title": "",
+        "description": "No Content"
+    }, {
+        "title": "K28422732: Response and Blocking Pages settings are missing",
+        "description": "Description\n\n"
+    }, {
+        "title": "K55303736: Configuration error: 01070734:3: The floating traffic-group: traffic-group-1 can only be set on /partition if its device-group is inherited from the root folder",
+        "description": "Description\n\nConfig fails to sync or load with the following error message:\n\nLoad failed from LTM1.example.com 01070734:3:  Configuration error: The floating traffic-group: traffic-group-1 can only be set on /partition if its device-group is inherited from the root folder\n\n"
+    }, {
+        "title": "K85504316: Openstack: bwc policy may not be delivered to BIGIP when f5_agent_mode is standard.",
+        "description": "Description\n\n"
+    }, {
+        "title": "K95644488: Config load failure with error message \"traffic matching criteria and addresses within the address list have different route domain\"",
+        "description": "Description\n\n\nConfig load failed with below Error message.\n\n01b40040:3: TMC(/Test-Partition/Test-TMC) and addresses within the address list(/Test-Partition/Test-Address-List) have different route domain.\n\n"
+    }, {
+        "title": "K00612159: Aspen Mesh Service Entry best practices",
+        "description": "Description\nMy "
+    }, {
+        "title": "K55747271: The user cannot access the Log menu from Configuration Utility",
+        "description": "Description\n\n"
+    }, {
+        "title": "K00099137: How to match LDNS IP to the region configuration",
+        "description": "Description\n\n"
+    }, {
+        "title": "K34133507: BIG-IQ Centralized Management compatibility matrix",
+        "description": "This article covers the compatibility of BIG-IQ Centralized Management 6.0.0 and later with BIG-IP releases.\n\n"
+    }, {
+        "title": "K51230228: F5 manufacturing compliance and certifications",
+        "description": "The following table describes the F5 maintained compliance, standards, and certifications for hardware and manufacturing.\n\n"
+    }, {
+        "title": "K914: Displaying the software version of your F5 product",
+        "description": "To display the software version for your F5 product, refer to the article associated with your product in the following table.\n\n"
+    }, {
+        "title": "K72015934: Display the NGINX software version",
+        "description": "You should consider using these procedures under the following condition:\n\nYou want to display the NGINX software version information."
+    }, {
+        "title": "K84111475: How to lookup ISP Names for Topology Load Balancing",
+        "description": "Description\n\n"
+    }, {
+        "title": "Final - K07869171: The BIG-IQ user interface may fail to load after an upgrade to 8.0.0",
+        "description": "The BIG-IQ user interface may fail to load after an upgrade to version 8.0.0. This is due to the BIG-IQ Role Based Access Control (RBAC) subsystem failing to update task tables that have a large number of items.\n\n"
+    }, {
+        "title": "K75502333: You want to install NGINX Instance Manager (NIM)",
+        "description": "No Content"
+    }, {
+        "title": "K15834: End of Life announcement for inbound and outbound cost-based link load balancing and inbound link path-based load balancing",
+        "description": " \n\n"
+    }, {
+        "title": "K85518341: How/if ASM support the Financial Information eXchange (FIX) protocol?",
+        "description": "Description\n\n\nASM requires the HTTP profile to be attached to the Virtual Server in order to operate.  The FIX protocol is not HTTP and instead uses the FIX profile on BIG-IP.  ASM does not understand the FIX protocol.\n\n"
+    }, {
+        "title": "K70259870: Unable to find Support ID in the Event Logs for violations",
+        "description": "Description\n\n"
+    }, {
+        "title": "K12920323: Elasticsearch cluster constantly losing connectivity in Azure Cloud",
+        "description": "Edit the file /etc/bigstart/scripts/elasticsearch and modify the following setting to meet the needs of the environment:\n\n\t"
+    }, {
+        "title": "K24738124: Users are unable to Remote Desktop from macOS after Microsoft RDP Client is Upgraded",
+        "description": "Description \n\n\nUsers are unable to Remote Desktop from macOS after the Microsoft RDP Client is Upgraded.\n\nThe RDP stops responding and no error messages are displayed.\n\n\n\nEnvironment\n\nRDP Client Upgraded to version 10.6.0 ( 1872 )"
+    }, {
+        "title": "K54909607: BIG-IQ Centralized Management compatibility with F5 Application Services 3 Extension and F5 Declarative Onboarding",
+        "description": "This article covers the compatibility of BIG-IQ Centralized Management and BIG-IP with F5 Application Services 3 extension (AS3) and F5 Declarative onboarding (DO) releases. The article also covers procedures for working with AS3 Redhat Package Manager (RPM) packages.\n"
+    }, {
+        "title": "K54497913: Users are unable to change expired passwords in Citrix StoreFront",
+        "description": "Description\n\n\nUsers are unable to change expired passwords in Citrix StoreFront.\n\nDue to this issue, the expired password has to be changed manually on the Active Directory.\n\n\nEnvironment\n\nCitrix StoreFront\nLogin with a non-expired password works fine"
+    }, {
+        "title": "K79308581: Welcome to Hardware (HELA)",
+        "description": "No Content"
+    }, {
+        "title": "K49235988: Welcome to NGINX Enterprise License Agreement (ELA)",
+        "description": "No Content"
+    }, {
+        "title": "K02024500: Pool with HTTPS monitors go down after upgrade to 12.1.5.3",
+        "description": "Description\n\n\nHTTPS health checks begin failing often. Sometimes, it can take many hours to show the symptom after upgrade where initially HTTPS health check works fine but after few hours depends on number of monitor instances, it starts failing without reasons.\n\nApart from health check failing, additional symptoms may occurs like OOM killer logs for bigd and other processes, daemon restarts, core files.\n\n/var/log/kern.log has similar to the following error\n\n"
+    }, {
+        "title": "K30902515: Resizing the /var, /var/log, or /shared file system on a BIG-IQ Virtual Edition",
+        "description": "You should consider using these procedures under the following condition:\n\nYou want to increase the disk space on a BIG-IQ Virtual Edition (VE) system that does not have sufficient disk space for the following tasks:\nKeeping more user configuration set (UCS) backup files from your managed devices or adding more software installation images\nIncreasing the BIG-IQ system logging volume\nAccommodating BIG-IQ system database or index growth"
+    }, {
+        "title": "K14736: BIG-IQ daemons",
+        "description": "The BIG-IQ system daemons perform a variety of functions, such as managing BIG-IQ ADC, Cloud, Device and Security resources and role-based access control. These resources can be located on BIG-IP devices in a private local network, a public third-party cloud service, or a combination of both.\n\n"
+    }, {
+        "title": "K14888: Displaying the BIG-IQ software version",
+        "description": "You should consider using this procedure under the following condition:You want to display the BIG-IQ software version information."
+    }, {
+        "title": "K15094: Licensing the BIG-IQ system",
+        "description": "You should consider using this procedure under the following condition:\n\nYou need to license your BIG-IQ system."
+    }, {
+        "title": "K14532110: Using the BIG-IQ disk-sizing tools to prepare for an update or upgrade",
+        "description": "This article discusses the considerations and procedures for using the BIG-IQ disk-sizing tools to increase the size of the disk directory volumes on the BIG-IQ system active and inactive slots prior to updating or upgrading.\n"
+    }, {
+        "title": "K80916682: Adding support for a newly published Azure BIG-IP VE image version on the BIG-IQ system",
+        "description": "You should consider using this procedure under the following condition:\n\nYou want to enable the BIG-IQ system to support a newly published Azure BIG-IP Virtual Edition (VE) image version in the Azure cloud environment."
+    }, {
+        "title": "K33433033: Advanced WAF features with the BIG-IP ASM license",
+        "description": "This article applies to existing BIG-IP ASM and BEST bundle customers.\n\n"
+    }, {
+        "title": "K21259300: BIG-IP items that are not synchronized between device group members during a ConfigSync operation",
+        "description": "This article discusses BIG-IP items that are not synchronized between device group members during a configuration synchronization (ConfigSync) operation."
+    }, {
+        "title": "K32139972: Updating NGINX App Protect Attack Signatures",
+        "description": "Description\n\n"
+    }, {
+        "title": "K26373642: APM configuration loading failure with error that AD server \"is not a valid IP address or hostname\"",
+        "description": "Description\n\nAfter upgrade, configuration can not be loaded with similar error message below,\n\nslot1/LTM1 load_config_files \"/usr/bin/tmsh -n -g load sys config partitions all \" - failed. -- Loading schema version: 12.1.5.2 Loading schema version: 13.1.3.6 01071d05:3: apm-ad.excample.com is not a valid IP address or hostname. Unexpected Error: Loading configuration process failed.\n\n\nEnvironment\n\nAPM\nAD Server\nSoftware Upgrade"
+    }, {
+        "title": "K15861: BIG-IQ third-party software matrix",
+        "description": "This article applies to BIG-IQ software. For information about BIG-IP software, refer to the following article:\n\nK48851448: BIG-IP third-party software matrix (16.x)"
+    }, {
+        "title": "K15365: License activation may be required prior to software upgrade for the BIG-IQ system",
+        "description": "This article applies to BIG-IQ systems. For information about other products, refer to the following article:\n\nK7727: License activation may be required prior to software upgrade for the BIG-IP or Enterprise Manager system"
+    }, {
+        "title": "Final - K96003129: Intel CPU vulnerability CVE-2020-24489",
+        "description": "Incomplete cleanup in some Intel(R) VT-d products may allow an authenticated user to potentially enable escalation of privilege via local access. (CVE-2020-24489)\n\n"
+    }, {
+        "title": "K14377: Base operating system information for the BIG-IQ system",
+        "description": "The following table contains base operating system information for the BIG-IQ system.\n\n"
+    }, {
+        "title": "Final - K32562936: Intel CPU vulnerabilities CVE-2020-24511 and CVE-2020-24512",
+        "description": "F5 Product Development has evaluated the currently supported releases for potential vulnerability, and no F5 products were found to be vulnerable.\n\n"
+    }, {
+        "title": "Final - K61201515: The DCD Elasticsearch process may restart every few hours",
+        "description": "The Elasticsearch process in BIG-IQ Data Collection Devices (DCD) may restart every few hours.\n\n"
+    }, {
+        "title": "K121: Base operating systems of F5 products",
+        "description": "All F5 products run a base operating system, and F5 responds to all reported vulnerabilities for that base operating system.\n\n"
+    }, {
+        "title": "K06024431: BIG-IQ vulnerability CVE-2021-23024",
+        "description": "The BIG-IQ Configuration utility has an authenticated remote command execution vulnerability in undisclosed pages. (CVE-2021-23024)\n\n"
+    }, {
+        "title": "K00843201: Grafana vulnerability CVE-2019-15043",
+        "description": "In Grafana 2.x through 6.x before 6.3.4, parts of the HTTP API allow unauthenticated use. This makes it possible to run a denial of service attack against the server running Grafana. (CVE-2019-15043)\n\n"
+    }, {
+        "title": "K50232117: Sync failed: 01020036:3: The requested profile (/Common/bot-defense-device-id-generate-before-access) was not found",
+        "description": "Description\n\n"
+    }, {
+        "title": "K15073: BIG-IQ software support policy",
+        "description": "To view the F5 software support policy for other F5 products, refer to K8986: F5 software lifecycle policy.\n\n"
+    }, {
+        "title": "K14383: Find the serial number or registration key of your BIG-IQ system",
+        "description": "You should consider using these procedures under any of the following conditions:\n\nYou need to retrieve the serial number of your BIG-IQ 7000 hardware.\nYou need to retrieve the registration key for your BIG-IQ system."
+    }, {
+        "title": "K15886: Restore the BIG-IQ system to factory default settings",
+        "description": "You should consider using this procedure under the following condition:You want to restore the BIG-IQ configuration to factory default settings on the currently active volume."
+    }, {
+        "title": "K16307: Troubleshooting BIG-IQ device discovery failures",
+        "description": "You should consider using these procedures under the following condition:\n\nYou cannot successfully discover remote BIG-IP systems from the BIG-IQ system."
+    }, {
+        "title": "K15938: Error Message: BIG-IQ has already discovered a device (<IP-Address>) with this machine ID",
+        "description": "Error Message\n\n"
+    }, {
+        "title": "K55201922: Locating product release notes",
+        "description": "You should consider using this procedure under the following condition:\n\nYou want to view product release notes for F5 products."
+    }, {
+        "title": "K2633: Instructions for submitting a support case to F5",
+        "description": "Contact F5 Support by telephone\n\n"
+    }, {
+        "title": "K37594672: F5 Support remote access policy",
+        "description": "F5 Support may use remote-access and screen-sharing tools (Zoom, for example) to access a customer's system to gain a better understanding of issues affecting their specific product instance.\n\n"
+    }, {
+        "title": "K58244152: Use cases for the BIG-IP APM Machine Tunnel Service",
+        "description": "Description\n\n\nStarting in v13.1.0 added functionality for Machine Tunnels allows for additional options when using BIG-IP APM.\n\n"
+    }, {
+        "title": "K88027052: Error Message \"Unexpected Error: can't get oid for nested object, keyword (white-ip) join table (bot_defense_asm_white_ip)\"",
+        "description": "Description\n\nRunning the command `tmsh -q -c 'cd /; list recursive'` results in an error message.\nError message occurs and the command does not succeed\nError message \"Unexpected Error: can't get oid for nested object, keyword (white-ip) join table (bot_defense_asm_white_ip)\""
+    }, {
+        "title": "K55243455: The dosl7d process may stop running and begin a restart loop",
+        "description": "Description\n\n\nThe dosl7d process may stop running and being in a restart loop as below:\n\ndosl7d       run (pid 8953) 0 seconds, 2 starts, 13750 restarts\ndosl7d_attack_monitor down, waiting for dosl7d to release running semaphore\n\nIn addition, the dosl7d process shows as down in tmsh command line prompt \n\n"
+    }, {
+        "title": "K66749283: Unable to assign other health monitors to APM AAA Active Directory object aside from the gateway_icmp",
+        "description": "Description\n\nWhen attempting to assign a Health monitor other than gateway_icmp (such as tcp) in the \"Server Pool Monitor\" setting in the APM AAA Active Directory object with pool-type Server Connection, you will receive an error message similar to the following:\n\n"
+    }, {
+        "title": "K24530635: How to recover deleted private SSL key from UCS",
+        "description": "Description\n\n"
+    }, {
+        "title": "K16848652: The GUI is not showing all information related to Local Traffic",
+        "description": "Description\n\n"
+    }, {
+        "title": "K59247302: F5FltSrv.exe process is generating random dns queries",
+        "description": "No Content"
+    }, {
+        "title": "K84214501: KDC Validation Configuration to protect against KDC Spoofing",
+        "description": "Description\n\n"
+    }, {
+        "title": "K13946: Troubleshooting ConfigSync and device service clustering issues",
+        "description": "Purpose\n\n"
+    }, {
+        "title": "K23035624: When SNMP Trap destination is set to FQDN and there's a change in DNS resolution the destination IP will not update automatically",
+        "description": "Description\n\n"
+    }, {
+        "title": "K29361461: Error logs: Deleting file /shared/core/*.core.*",
+        "description": "Description\n\nError messages"
+    }, {
+        "title": "K33100725: Lost connection to management IP after upgrade to 14.1.0 or later version",
+        "description": "Description\n\nConnection to management IP may be lost after upgrade VE to 14.1.0 or later version, after booting into the new software volume, below symptoms may be observed:\n\nFailed to ping management ip\nCannot ssh to manament ip\nWebui is not available \nTcpdump on mgmt interface shows there is traffic in but no traffic sending out from mgmt"
+    }, {
+        "title": "K12939497: Cookie is not inserted after redirect irule is triggered",
+        "description": "Description\n\nTraffic redirection via iRule does not work with cookie persistence when the \"node\" command is used. Example:\n\n"
+    }, {
+        "title": "K80174203: LTM virtual-address icmp-echo changed to disabled after upgrade",
+        "description": "Description\nAfter an upgrade, several virtual servers may stop responding to ping. Once reviewed the configuration, it may turn out that the icmp-echo parameter had changed to disabled.\n\n"
+    }, {
+        "title": "K02643113: DNS Query log: query: null invalid invalid +",
+        "description": "Description\n\n"
+    }, {
+        "title": "K02553442: How To Renew SSL Certificate Used By HTTPS Health Monitor Affected By Bug ID 932461 Using BIG-IQ",
+        "description": "Description\nThis article provides the procedure using BIG-IQ for renewing the certificate used by a server SSL profile that is attached to HTTPS health monitor on a BIG-IP affected by Bug ID 932461 .\n\n"
+    }, {
+        "title": "K40115984: Modify the retention time for the Prometheus DB in Aspen Mesh",
+        "description": "Description\nWith Aspen Mesh control plane components installed, you have the "
+    }, {
+        "title": "Applies To:",
+        "description": "No Content"
+    }, {
+        "title": "K30216916: Restoring data snapshot from previous BIG-IQ version on BIG-IQ 8.x",
+        "description": "Description\nOn v8.x when you are trying to restore data snapshot from the 7.x or 6.x version, you see an error \"Failed to restore <snapshot-name>\"\n\n"
+    }, {
+        "title": "K37001627: BIG-IP error: invalid \"http response chunking\" value for profile /common/http. invalid entry, check allowed values",
+        "description": "Description\n\n\nWhen deploying an HTTP profile from BIG-IQ with mismatch \"Response chunking\" options against BIG-IP's ones, the following log error is shown in BIG-IP:\n\n"
+    }, {
+        "title": "K01813098: \"This device is not found\" when adding peer to device trust",
+        "description": "Description\n\n\nAdding peer device to device trust, GUI shows \"This device is not found\" error\n\nBasic network connectivity troubleshooting shows no connection to peer device, ping fails with \"time to live exceeded\"\n\nLocal loop interface is shown as the default gateway:\n\n      # ip route get 172.16.23.28\n      172.16.23.28 via 127.1.1.253 dev tmm  src 127.1.1.254\n          cache  mtu 9282 advmss 9242 hoplimit 64 \n\n\nEnvironment\nPeer device not in the same subnet\n\n"
+    }, {
+        "title": "K24110403: After Windows 20H1/20H2/21H1 upgrade users are unable to resolve DNS after disconnecting the F5 APM Edge Client",
+        "description": "Description\n\nAfter the Windows 10 20H1, 20H2 or 21H2 in-place upgrades, users may experience a loss of DNS Resolution after using the F5 Edge Client. \nThe symptoms of this issue are failures to resolve all DNS queries using ping, nslookup, or while using a web browser. \nUsers may experience browser errors relating to DNS:\n\nMicrosoft Edge -  Hmmm...can't reach this page\nGoogle Chrome -  DNS_PROBE_FINISHED_NO_INTERNET\nMozilla Firefox - Hmm. We're having trouble finding that site"
+    }, {
+        "title": "K54089555: How to verify the X-Forwarded-For value sent to backend server without decrypting traffic",
+        "description": "Description\n\n"
+    }, {
+        "title": "K49591366: How to verify the X-Forwarded-For value sent to backend server without decrypting traffic (14.x and below)",
+        "description": "Description\n\n"
+    }, {
+        "title": "K15234008: Zero window timeouts in conjunction with OneConnect causes connections to stall",
+        "description": "Description\n\nWhen a server-side TCP connection enters a zero-window state, the connection stalls and never recovers despite data being received and acknowledged on the client-side\nPacket captures taken on the BIG-IP, shows  that the BIG-IP sending zero window packets to the server"
+    }, {
+        "title": "K95544972: SWG may fail to process connection request, with the browser reporting \"Can’t reach this page\"",
+        "description": "No Content"
+    }, {
+        "title": "K80704621: Error 51091: The system platform is either unrecognized or is not a valid version for the identified platform - The license server was not able to determine the appliance's platform from the dossier.",
+        "description": "Description\n\n"
+    }, {
+        "title": "K18795805: Licensing Error 51079: Invalid Base Registration Key - Retired status",
+        "description": "Description\n\n\nThe Base Registration Key cannot be used to re-activate the license on a device if it is retired. A license key is retired for various reasons.\nFor instance, the license key is retired for a faulty RMA device. If the retired key is used to activate the license, an error message will appear as below.\n\nError message: 51079 - Invalid Base Registration Key / Retired status\n\n"
+    }, {
+        "title": "K94024302: Traffic matching criteria and addresses within the address list have different route domain",
+        "description": "Description\n\n"
+    }, {
+        "title": "K81414346: How To add/remove resources from APM webtop",
+        "description": "Description\n\n\nBIG-IP Administrators can control what resource/s a particular user or group have access to. This can be done by adding/removing the desired resource/s via the access policy Virtual Policy Editor (VPE)\n\nOnce added, for BIG-IP APM deployments utilizing a \"Full webtop\" use-case, upon successful access policy completion, users will see icons on their APM webtop which represents the resources that have been assigned for their session. \n\n"
+    }, {
+        "title": "K10243317: Mismatched VLAN config between Active and Standby units",
+        "description": "Description\nThe VLAN failsafe config is mismatched between the active and standby peers in High-Availability (HA) system.\n\n"
+    }, {
+        "title": "K30047065: Admin and Auditor roles different for \"tmsh show running one-line\" command",
+        "description": "Description\n\nGet different output when using command: \"tmsh show running one-line\" for:\nUser role - Admin\nUser role - Audit\nAn example for differentiation between Admin and Auditor role:\ndiff f5-admin f5-auditor\n---  f5-admin ---\n< sys folder / { device-group Common/Sync-failover inherited-devicegroup false inherited-traffic-group false traffic-group Common/traffic-group-1 }\n< sys folder Common { device-group Common/Sync-failover inherited-devicegroup true inherited-traffic-group true traffic-group Common/traffic-group-1 }\n< sys folder Common/Drafts { device-group Common/Sync-failover inherited-devicegroup true inherited-traffic-group true traffic-group Common/traffic-group-1 }\n< sys folder Pci { device-group Common/Sync-failover inherited-devicegroup true inherited-traffic-group true traffic-group Common/traffic-group-1 }\n--- f5-auditor ---\n> sys folder / { inherited-devicegroup false inherited-traffic-group false }\n> sys folder Common { inherited-devicegroup true inherited-traffic-group true }\n> sys folder Common/Drafts { inherited-devicegroup true inherited-traffic-group true }\n> sys folder Pci { inherited-devicegroup true inherited-traffic-group true }"
+    }, {
+        "title": "K26701577: Overview of daemons that are monitored and restarted by the runsv utility (16.x)",
+        "description": "This article applies to BIG-IP 16.x. For information about other versions, refer to the following articles:\n\nK41984305: Overview of daemons that are monitored and restarted by the runsv utility (14.x - 15.x)\nK69933022: Overview of daemons that are monitored and restarted by the runsv utility (12.x – 13.x)\nK14934: Overview of daemons that are monitored and restarted by the runsv utility (11.x)"
+    }, {
+        "title": "Final - K94504224: Apache ZooKeeper vulnerability CVE-2019-0201",
+        "description": "An issue is present in Apache ZooKeeper 1.0.0 to 3.4.13 and 3.5.0-alpha to 3.5.4-beta. ZooKeeper&#8217;s getACL() command doesn&#8217;t check any permission when retrieves the ACLs of the requested node and returns all information contained in the ACL Id field as plaintext string. DigestAuthenticationProvider overloads the Id field with the hash value that is used for user authentication. As a consequence, if Digest Authentication is in use, the unsalted hash value will be disclosed by getACL() request for unauthenticated or unprivileged users. (CVE-2019-0201)\n\n"
+    }, {
+        "title": "K57418326: Modifying Server Agent Name in HTTP profile",
+        "description": "Description\n\n\nWhen HTTP headers are analyzed for connection from BIG-IP towards the back-end server, Server Agent Name can reveal BIG-IP device identity\n\n"
+    }, {
+        "title": "K8802: Using SSL and TLS ciphers with BIG-IP Client SSL and Server SSL profiles",
+        "description": "For information about using SSL and TLS ciphers with BIG-IP Client SSL and Server SSL profiles, refer to the articles in the following tables.\n\nBIG-IP 15.x - 16.x\nBIG-IP 14.x\nBIG-IP 11.x - 13.x\nBIG-IP 9.x - 10.x"
+    }, {
+        "title": "K12242214: Aspen Mesh troubleshooting data best practices",
+        "description": "Description\nWhat data to provide to Aspen Mesh Support when troubleshooting.\n\n"
+    }, {
+        "title": "K57076384: Virtual Server auto-discovery does not work with traffic matching criteria enabled VIP",
+        "description": "Description\n\n"
+    }, {
+        "title": "K81340334: How to log connections to BIG-IP (GUI & CLI); and send an email notifying about this activity",
+        "description": "Description\n\n"
+    }, {
+        "title": "K09534944: Not seeing ASM event logs on Manage Engine Firewall Analyzer",
+        "description": "Description\n\n\nAll logs except for the ASM event logs are not received on Manage Engine Firewall Analyzer.\n\n\nEnvironment\n\nIn the Event logging profile, logging format 'Comma-Separated Values' is selected"
+    }, {
+        "title": "K35971134: Invalid keyword 'complementofdefault' in ciphers list",
+        "description": "Description\n\nYou try to configure a custom cipher list for a Client or Server SSL profile using string \"complementofdefault\"\nThe following error appear on GUI or CLI\n\nInvalid keyword 'complementofdefault' in ciphers list for profile Common/Client_SSL_Profile"
+    }, {
+        "title": "K56440024: Cannot Sync: Sync Error: 01070920:3: Application error for confpp: SysExe: fork error",
+        "description": "Description\n\n\nCannot sync.  Getting Sync error: 01070920:3: Application error for confpp: SysExe: fork error\n\nAt the time of ConfigSync: \n\nLog:   tailf /var/log/ltm shows log messages of:\n\nMCPD query response exceeding 30 seconds.\nMCPD query response exceeding 60 seconds.\nApplication error for confpp: SysExe: fork error\nRemote transaction for device group /Common/SYNC-FAILOVER to commit id 8884 6972602581530736086 /Common/xxxxxxxx 0 failed with error 010709\n\n"
+    }, {
+        "title": "K10155137: Microsoft Defender may break Client Certificate Authentication",
+        "description": "Description\n\n\t\t\t"
+    }, {
+        "title": "K11093282: Error message: 0107189b:3: Cannot delete ephemeral object: /Common/_auto_x.x.x.x",
+        "description": "Description\n\n"
+    }, {
+        "title": "K08253317: Error message: \"012a0000:0: Dataplane INOPERABLE - only 0 HSBes found on this platform\" or \"012a0000:0: Dataplane INOPERABLE - Only 2 HSBs found. Expected 4\"",
+        "description": "Description\n\n\nmcpd does not start properly and /var/log/ltm has similar to below message:\n\n"
+    }, {
+        "title": "K77031520: Unexpected reboot (failover) with power supply issue.",
+        "description": "Description\n\n\nUnexpectedly unit rebooted and failover is initiated.\nWhen you check /var/log/ltm, there is no indication why it is rebooted.\nBut in /var/log/sel has further information, similar to the below:\n\n"
+    }, {
+        "title": "K19302224: Configure Access Logs in Aspen Mesh",
+        "description": "Description\nAccess Logs are enabled by default for all istio-proxy containers in the Aspen Mesh cluster and are written to the container’s standard output. You can then print the logs using the "
+    }, {
+        "title": "K36322662: Login history in GUI is empty",
+        "description": "Description\n\nWhen viewing the Login History in the GUI (System  ››  Logins : History) it displays \"No Entries\", despite audit logging being enabled and user activity showing in /var/log/audit\n\n"
+    }, {
+        "title": "K73550425: Configuration failed to load with error: Failed: name (/Common/dtdi.crt) Cache path (/config/filestore/files_d/Common_d/trust_certificate_d/:Common:dtdi.crt_<Revision ID>) does not exist and there is no copy in trash-bin to restore from",
+        "description": "Description\n\nAfter upgrade, the below message is observed on the Configuration Utility (GUI):\n\nThe configuration has not yet loaded. If this message persists, it may indicate a configuration problem.\n\nFrom CLI, verify the configuration by using the command \"tmsh load /sys config verify\" and the below error is observed: "
+    }, {
+        "title": "K50901382: How to mitigate tls-dh-primes on the BIG-IP",
+        "description": "Description\nYour vulnerability scanner has detected that the BIG-IP is vulnerable to  tls-dh-primes.\n\n"
+    }]
+}
